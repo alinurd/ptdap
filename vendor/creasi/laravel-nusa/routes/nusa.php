@@ -1,0 +1,57 @@
+<?php
+
+use Creasi\Nusa\Http\Controllers\ApiController;
+use Creasi\Nusa\Http\Controllers\DistrictController;
+use Creasi\Nusa\Http\Controllers\ProvinceController;
+use Creasi\Nusa\Http\Controllers\RegencyController;
+use Creasi\Nusa\Http\Controllers\VillageController;
+use Illuminate\Support\Facades\Route;
+
+Route::controller(ProvinceController::class)->prefix('provinces')->group(function () {
+    Route::get('', 'index')->name('provinces.index');
+    Route::get('{province}', 'show')->name('provinces.show');
+    Route::get('{province}/regencies', 'regencies')->name('provinces.regencies');
+    Route::get('{province}/districts', 'districts')->name('provinces.districts');
+    Route::get('{province}/villages', 'villages')->name('provinces.villages');
+});
+
+Route::controller(RegencyController::class)->prefix('regencies')->group(function () {
+    Route::get('', 'index')->name('regencies.index');
+    Route::get('{regency}', 'show')->name('regencies.show');
+    Route::get('{regency}/districts', 'districts')->name('regencies.districts');
+    Route::get('{regency}/villages', 'villages')->name('regencies.villages');
+});
+
+Route::controller(DistrictController::class)->prefix('districts')->group(function () {
+    Route::get('', 'index')->name('districts.index');
+    Route::get('{district}', 'show')->name('districts.show');
+    Route::get('{district}/villages', 'villages')->name('districts.villages');
+});
+
+Route::controller(VillageController::class)->prefix('villages')->group(function () {
+    Route::get('', 'index')->name('villages.index');
+    Route::get('{village}', 'show')->name('villages.show');
+});
+
+Route::controller(ApiController::class)->group(function () {
+    Route::get('', 'index')->name('index');
+
+    Route::get('{province}', 'province')->name('province')->where($province = [
+        'province' => '[0-9]{2}',
+    ]);
+
+    Route::get('{province}/{regency}', 'regency')->name('regency')->where($regency = [
+        ...$province,
+        'regency' => '[0-9]{2}',
+    ]);
+
+    Route::get('{province}/{regency}/{district}', 'district')->name('district')->where($district = [
+        ...$regency,
+        'district' => '[0-9]{2}',
+    ]);
+
+    Route::get('{province}/{regency}/{district}/{village}', 'village')->name('village')->where($village = [
+        ...$district,
+        'village' => '[0-9]{4}',
+    ]);
+});

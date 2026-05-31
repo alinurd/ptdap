@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Laporan Pengaduan</title>
+    
+</head>
+<body>
+    
+    <div class="header">
+        <h1>LAPORAN PENGADUAN LENGKAP</h1>
+        <div class="subtitle">
+            Dicetak pada: 28/11/2025 06:00 | Total Data: 1 records
+                            | Periode: Januari 2025
+                    </div>
+    </div>
+
+    
+        <div class="filter-info">
+        <strong>Filter yang diterapkan:</strong>
+                    <span class="filter-item">
+                <strong>Bulan:</strong> Januari
+            </span>
+            </div>
+    
+    
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2" width="30">NO</th>
+                <th rowspan="2" width="100">KODE TRACKING</th>
+                <th rowspan="2" width="80">WAKTU KEJADIAN</th>
+                <th rowspan="2" width="90">TANGGAL ADUAN</th>
+                
+                
+                <th colspan="3" class="bg-blue">IDENTITAS PELAPOR</th>
+                
+                
+                <th colspan="2" class="bg-orange">IDENTITAS TERLAPOR</th>
+                
+                <th rowspan="2" width="70">STATUS</th>
+                <th rowspan="2" width="100">JENIS PELANGGARAN</th>
+                <th rowspan="2" width="150">PERIHAL & URAIAN</th>
+                <th rowspan="2" width="80">ADMIN</th>
+                <th rowspan="2" width="90">TANGGAL DIBUAT</th>
+            </tr>
+            <tr>
+                
+                <th width="80" class="bg-blue">NAMA</th>
+                <th width="80" class="bg-blue">NOMOR PONSEL</th>
+                <th width="120" class="bg-blue">KONTAK DETAIL</th>
+                
+                
+                <th width="80" class="bg-orange">NAMA</th>
+                <th width="100" class="bg-orange">DIREKTORAT</th>
+            </tr>
+        </thead>
+        <tbody>
+                        <tr>
+                
+                <td class="row-number">1</td>
+                
+                
+                <td style="font-family: 'Courier New', monospace;">g9XsNWEu</td>
+                
+                
+                <td class="text-center">
+                                            -
+                                    </td>
+                
+                
+                <td class="text-center">
+                                            27/01/2025 04:06
+                                    </td>
+                
+                
+                <td class="bg-blue">Santi</td>
+                <td class="bg-blue">43543</td>
+                <td class="bg-blue wrap-text">alamat Lorem ipsum, atau ringkasnya lipsum,</td>
+                
+                
+                <td class="bg-orange">Santi</td>
+                <td class="bg-orange"> Corporate Affairs Directorate</td>
+                
+                
+                <td class="text-center">
+                                        <span class="status-badge status-open">
+                        Open
+                    </span>
+                </td>
+                
+                
+                <td>Korupsi atau Suap</td>
+                
+                
+                <td class="wrap-text">
+                    <strong>Perihal:</strong> perihal Lorem ipsum, atau ringkasnya lipsum,<br>
+                                        <strong>Uraian:</strong> uraian Lorem ipsum, atau ringkasnya lipsum,
+                                    </td>
+                
+                
+                <td class="text-center">System</td>
+                
+                
+                <td class="text-center">
+                                            27/11/2025 04:06
+                                    </td>
+            </tr>
+                    </tbody>
+    </table>
+
+    
+    <div class="footer">
+        Dokumen ini dibuat secara otomatis oleh Sistem Pengaduan | Halaman 1
+    </div>
+</body>
+</html>

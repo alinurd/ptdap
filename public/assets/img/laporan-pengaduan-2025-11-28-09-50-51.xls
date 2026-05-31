@@ -1,0 +1,247 @@
+<div class="header">
+        <h1>LAPORAN PENGADUAN LENGKAP</h1>
+        <div class="subtitle">
+            Dicetak pada: 28/11/2025 09:50 | Total Data: 10 records
+                            | Periode: November 2025
+                    </div>
+    </div>
+
+    
+        <div class="filter-info">
+        <strong>Filter yang diterapkan:</strong>
+                    <span class="filter-item">
+                <strong>Periode:</strong> Semua Data
+            </span>
+            </div>
+    
+    
+<table border="1" style="border-collapse:collapse; ; width:100%;">
+        <thead>
+            <tr>
+                <th  width="30">NO</th>
+                <th  width="100">Kode Tracking</th>
+                <th  width="80">Username</th>
+                <th  width="90">Nama</th>
+                <th  width="90">Jenis Pelanggaran</th>  
+                <th  width="90">Perihal</th> 
+                <th  width="90">Uraian</th> 
+                <th  width="90">Direktorat</th> 
+                <th  width="90">Kontak Detail</th> 
+                <th  width="90">Perkiraan Waktu Kejadian</th> 
+                <th  width="90">Nama Terlapor</th> 
+                <th  width="90">Tanggal Aduan</th> 
+            </tr>
+        </thead>
+        <tbody>
+                        <tr>
+                <td class="row-number">1</td>
+                <td style="font-family: 'Courier New', monospace;">tjYSzULf</td>
+                <td class="bg-blue">-</td>
+                <td class="bg-blue">Santi</td>
+                <td>Korupsi atau Suap</td>
+                <td>cek flow</td>
+                <td>uraianuraianuraianuraianuraian</td>
+                <td>Finance Directorate</td>
+                 <td>alamatalamatalamatalamatalamat</td>
+                <td class="text-center">
+                                            27/11/2025
+                                    </td>
+                
+                <td class="bg-orange">pelapor</td>
+                <td class="bg-orange">Finance Directorate</td>
+                
+                <td class="text-center">
+                                            26/11/2025
+                                    </td>
+            </tr>
+                        <tr>
+                <td class="row-number">2</td>
+                <td style="font-family: 'Courier New', monospace;">g9XsNWEu</td>
+                <td class="bg-blue">-</td>
+                <td class="bg-blue">Santi</td>
+                <td>Korupsi atau Suap</td>
+                <td>perihal Lorem ipsum, atau ringkasnya lipsum,</td>
+                <td>uraian Lorem ipsum, atau ringkasnya lipsum,</td>
+                <td> Corporate Affairs Directorate</td>
+                 <td>alamat Lorem ipsum, atau ringkasnya lipsum,</td>
+                <td class="text-center">
+                                            28/11/2025
+                                    </td>
+                
+                <td class="bg-orange">Santi</td>
+                <td class="bg-orange"> Corporate Affairs Directorate</td>
+                
+                <td class="text-center">
+                                            27/01/2025
+                                    </td>
+            </tr>
+                        <tr>
+                <td class="row-number">3</td>
+                <td style="font-family: 'Courier New', monospace;">LnydDQXk</td>
+                <td class="bg-blue">-</td>
+                <td class="bg-blue">Santi</td>
+                <td>Korupsi atau Suap</td>
+                <td>sdfdfdfdf</td>
+                <td>fdgdfgsdfsfdsf</td>
+                <td>Finance Directorate</td>
+                 <td>dfgdfgsdfsdfdsfsf</td>
+                <td class="text-center">
+                                            27/11/2025
+                                    </td>
+                
+                <td class="bg-orange">45sdfsdf</td>
+                <td class="bg-orange">Finance Directorate</td>
+                
+                <td class="text-center">
+                                            27/11/2025
+                                    </td>
+            </tr>
+                        <tr>
+                <td class="row-number">4</td>
+                <td style="font-family: 'Courier New', monospace;">UfgW2xR0</td>
+                <td class="bg-blue">-</td>
+                <td class="bg-blue">Santi</td>
+                <td>Lainnya</td>
+                <td>Perihal Perihal Perihal </td>
+                <td>Uraian Uraian Uraian Uraian </td>
+                <td>Finance Directorate</td>
+                 <td>Alamat Tempat KejadianAlamat Tempat KejadianAlamat Tempat Kejadian</td>
+                <td class="text-center">
+                                            27/11/2025
+                                    </td>
+                
+                <td class="bg-orange">ertret</td>
+                <td class="bg-orange">Finance Directorate</td>
+                
+                <td class="text-center">
+                                            27/11/2025
+                                    </td>
+            </tr>
+                        <tr>
+                <td class="row-number">5</td>
+                <td style="font-family: 'Courier New', monospace;">TyzNLym6</td>
+                <td class="bg-blue">-</td>
+                <td class="bg-blue">Santi</td>
+                <td>Korupsi atau Suap</td>
+                <td>sdfsf</td>
+                <td>dsfsfsddddddddddddddd</td>
+                <td> Corporate Affairs Directorate</td>
+                 <td>fsffffffffffffffffffffffff</td>
+                <td class="text-center">
+                                            27/11/2025
+                                    </td>
+                
+                <td class="bg-orange">dsf</td>
+                <td class="bg-orange"> Corporate Affairs Directorate</td>
+                
+                <td class="text-center">
+                                            27/11/2025
+                                    </td>
+            </tr>
+                        <tr>
+                <td class="row-number">6</td>
+                <td style="font-family: 'Courier New', monospace;">0fZRExc6</td>
+                <td class="bg-blue">-</td>
+                <td class="bg-blue">Santi</td>
+                <td>Korupsi atau Suap</td>
+                <td>ewr</td>
+                <td>wer</td>
+                <td>Finance Directorate</td>
+                 <td>wer</td>
+                <td class="text-center">
+                                            27/11/2025
+                                    </td>
+                
+                <td class="bg-orange">34</td>
+                <td class="bg-orange">Finance Directorate</td>
+                
+                <td class="text-center">
+                                            27/11/2025
+                                    </td>
+            </tr>
+                        <tr>
+                <td class="row-number">7</td>
+                <td style="font-family: 'Courier New', monospace;">zp8vBxj3</td>
+                <td class="bg-blue">-</td>
+                <td class="bg-blue">Santi</td>
+                <td>Benturan Kepentingan</td>
+                <td>perihal Lorem ipsum, atau ringkasnya lipsum,</td>
+                <td>uraian Lorem ipsum, atau ringkasnya lipsum,</td>
+                <td>Finance Directorate</td>
+                 <td>alamat Lorem ipsum, atau ringkasnya lipsum,</td>
+                <td class="text-center">
+                                            27/11/2025
+                                    </td>
+                
+                <td class="bg-orange">tweywye</td>
+                <td class="bg-orange">Finance Directorate</td>
+                
+                <td class="text-center">
+                                            27/11/2025
+                                    </td>
+            </tr>
+                        <tr>
+                <td class="row-number">8</td>
+                <td style="font-family: 'Courier New', monospace;">zp8vBxj1</td>
+                <td class="bg-blue">-</td>
+                <td class="bg-blue">Santi</td>
+                <td>Benturan Kepentingan</td>
+                <td>perihal Lorem ipsum, atau ringkasnya lipsum,</td>
+                <td>uraian Lorem ipsum, atau ringkasnya lipsum,</td>
+                <td>Finance Directorate</td>
+                 <td>alamat Lorem ipsum, atau ringkasnya lipsum,</td>
+                <td class="text-center">
+                                            27/11/2025
+                                    </td>
+                
+                <td class="bg-orange">tweywye</td>
+                <td class="bg-orange">Finance Directorate</td>
+                
+                <td class="text-center">
+                                            27/11/2025
+                                    </td>
+            </tr>
+                        <tr>
+                <td class="row-number">9</td>
+                <td style="font-family: 'Courier New', monospace;">222</td>
+                <td class="bg-blue">-</td>
+                <td class="bg-blue">Santi</td>
+                <td>Benturan Kepentingan</td>
+                <td>perihal Lorem ipsum, atau ringkasnya lipsum,</td>
+                <td>uraian Lorem ipsum, atau ringkasnya lipsum,</td>
+                <td>Finance Directorate</td>
+                 <td>alamat Lorem ipsum, atau ringkasnya lipsum,</td>
+                <td class="text-center">
+                                            27/11/2025
+                                    </td>
+                
+                <td class="bg-orange">tweywye</td>
+                <td class="bg-orange">Finance Directorate</td>
+                
+                <td class="text-center">
+                                            27/11/2025
+                                    </td>
+            </tr>
+                        <tr>
+                <td class="row-number">10</td>
+                <td style="font-family: 'Courier New', monospace;">dsfgtrRF</td>
+                <td class="bg-blue">-</td>
+                <td class="bg-blue">Santi</td>
+                <td>Benturan Kepentingan</td>
+                <td>perihal Lorem ipsum, atau ringkasnya lipsum,</td>
+                <td>uraian Lorem ipsum, atau ringkasnya lipsum,</td>
+                <td>Finance Directorate</td>
+                 <td>alamat Lorem ipsum, atau ringkasnya lipsum,</td>
+                <td class="text-center">
+                                            27/11/2025
+                                    </td>
+                
+                <td class="bg-orange">tweywye</td>
+                <td class="bg-orange">Finance Directorate</td>
+                
+                <td class="text-center">
+                                            27/11/2025
+                                    </td>
+            </tr>
+                    </tbody>
+    </table>

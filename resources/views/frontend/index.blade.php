@@ -1,0 +1,9 @@
+@extends('frontend.layouts.app')
+@section('content')
+    @include('frontend.sections.hero')
+    @include('frontend.sections.about-preview')
+    @include('frontend.sections.bisnis-kategori')
+    @include('frontend.sections.visi-misi')
+    @include('frontend.sections.pengalaman-home')
+    @include('frontend.sections.contact')
+@endsection

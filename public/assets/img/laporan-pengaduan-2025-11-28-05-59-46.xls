@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Laporan Pengaduan</title>
+    
+</head>
+<body>
+    
+    <div class="header">
+        <h1>LAPORAN PENGADUAN LENGKAP</h1>
+        <div class="subtitle">
+            Dicetak pada: 28/11/2025 05:59 | Total Data: 10 records
+                            | Periode: November 2025
+                    </div>
+    </div>
+
+    
+        <div class="filter-info">
+        <strong>Filter yang diterapkan:</strong>
+                    <span class="filter-item">
+                <strong>Periode:</strong> Semua Data
+            </span>
+            </div>
+    
+    
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2" width="30">NO</th>
+                <th rowspan="2" width="100">KODE TRACKING</th>
+                <th rowspan="2" width="80">WAKTU KEJADIAN</th>
+                <th rowspan="2" width="90">TANGGAL ADUAN</th>
+                
+                
+                <th colspan="3" class="bg-blue">IDENTITAS PELAPOR</th>
+                
+                
+                <th colspan="2" class="bg-orange">IDENTITAS TERLAPOR</th>
+                
+                <th rowspan="2" width="70">STATUS</th>
+                <th rowspan="2" width="100">JENIS PELANGGARAN</th>
+                <th rowspan="2" width="150">PERIHAL & URAIAN</th>
+                <th rowspan="2" width="80">ADMIN</th>
+                <th rowspan="2" width="90">TANGGAL DIBUAT</th>
+            </tr>
+            <tr>
+                
+                <th width="80" class="bg-blue">NAMA</th>
+                <th width="80" class="bg-blue">NOMOR PONSEL</th>
+                <th width="120" class="bg-blue">KONTAK DETAIL</th>
+                
+                
+                <th width="80" class="bg-orange">NAMA</th>
+                <th width="100" class="bg-orange">DIREKTORAT</th>
+            </tr>
+        </thead>
+        <tbody>
+                        <tr>
+                
+                <td class="row-number">1</td>
+                
+                
+                <td style="font-family: 'Courier New', monospace;">tjYSzULf</td>
+                
+                
+                <td class="text-center">
+                                            -
+                                    </td>
+                
+                
+                <td class="text-center">
+                                            26/11/2025 11:02
+                                    </td>
+                
+                
+                <td class="bg-blue">Santi</td>
+                <td class="bg-blue">786876786676867</td>
+                <td class="bg-blue wrap-text">alamatalamatalamatalamatalamat</td>
+                
+                
+                <td class="bg-orange">pelapor</td>
+                <td class="bg-orange">Finance Directorate</td>
+                
+                
+                <td class="text-center">
+                                        <span class="status-badge status-open">
+                        Open
+                    </span>
+                </td>
+                
+                
+                <td>Korupsi atau Suap</td>
+                
+                
+                <td class="wrap-text">
+                    <strong>Perihal:</strong> cek flow<br>
+                                        <strong>Uraian:</strong> uraianuraianuraianuraianuraian
+                                    </td>
+                
+                
+                <td class="text-center">System</td>
+                
+                
+                <td class="text-center">
+                                            26/11/2025 11:02
+                                    </td>
+            </tr>
+                        <tr>
+                
+                <td class="row-number">2</td>
+                
+                
+                <td style="font-family: 'Courier New', monospace;">g9XsNWEu</td>
+                
+                
+                <td class="text-center">
+                                            -
+                                    </td>
+                
+                
+                <td class="text-center">
+                                            27/01/2025 04:06
+                                    </td>
+                
+                
+                <td class="bg-blue">Santi</td>
+                <td class="bg-blue">43543</td>
+                <td class="bg-blue wrap-text">alamat Lorem ipsum, atau ringkasnya lipsum,</td>
+                
+                
+                <td class="bg-orange">Santi</td>
+                <td class="bg-orange"> Corporate Affairs Directorate</td>
+                
+                
+                <td class="text-center">
+                                        <span class="status-badge status-open">
+                        Open
+                    </span>
+                </td>
+                
+                
+                <td>Korupsi atau Suap</td>
+                
+                
+                <td class="wrap-text">
+                    <strong>Perihal:</strong> perihal Lorem ipsum, atau ringkasnya lipsum,<br>
+                                        <strong>Uraian:</strong> uraian Lorem ipsum, atau ringkasnya lipsum,
+                                    </td>
+                
+                
+                <td class="text-center">System</td>
+                
+                
+                <td class="text-center">
+                                            27/11/2025 04:06
+                                    </td>
+            </tr>
+                        <tr>
+                
+                <td class="row-number">3</td>
+                
+                
+                <td style="font-family: 'Courier New', monospace;">LnydDQXk</td>
+                
+                
+                <td class="text-center">
+                                            -
+                                    </td>
+                
+                
+                <td class="text-center">
+                                            27/11/2025 04:10
+                                    </td>
+                
+                
+                <td class="bg-blue">Santi</td>
+                <td class="bg-blue">54646456</td>
+                <td class="bg-blue wrap-text">dfgdfgsdfsdfdsfsf</td>
+                
+                
+                <td class="bg-orange">45sdfsdf</td>
+                <td class="bg-orange">Finance Directorate</td>
+                
+                
+                <td class="text-center">
+                                        <span class="status-badge status-open">
+                        Open
+                    </span>
+                </td>
+                
+                
+                <td>Korupsi atau Suap</td>
+                
+                
+                <td class="wrap-text">
+                    <strong>Perihal:</strong> sdfdfdfdf<br>
+                                        <strong>Uraian:</strong> fdgdfgsdfsfdsf
+                                    </td>
+                
+                
+                <td class="text-center">System</td>
+                
+                
+                <td class="text-center">
+                                            27/11/2025 04:10
+                                    </td>
+            </tr>
+                        <tr>
+                
+                <td class="row-number">4</td>
+                
+                
+                <td style="font-family: 'Courier New', monospace;">UfgW2xR0</td>
+                
+                
+                <td class="text-center">
+                                            -
+                                    </td>
+                
+                
+                <td class="text-center">
+                                            27/11/2025 04:27
+                                    </td>
+                
+                
+                <td class="bg-blue">Santi</td>
+                <td class="bg-blue">546456546</td>
+                <td class="bg-blue wrap-text">Alamat Tempat KejadianAlamat Tempat KejadianAlamat Tempat Kejadian</td>
+                
+                
+                <td class="bg-orange">ertret</td>
+                <td class="bg-orange">Finance Directorate</td>
+                
+                
+                <td class="text-center">
+                                        <span class="status-badge status-open">
+                        Open
+                    </span>
+                </td>
+                
+                
+                <td>Lainnya</td>
+                
+                
+                <td class="wrap-text">
+                    <strong>Perihal:</strong> Perihal Perihal Perihal <br>
+                                        <strong>Uraian:</strong> Uraian Uraian Uraian Uraian 
+                                    </td>
+                
+                
+                <td class="text-center">System</td>
+                
+                
+                <td class="text-center">
+                                            27/11/2025 04:27
+                                    </td>
+            </tr>
+                        <tr>
+                
+                <td class="row-number">5</td>
+                
+                
+                <td style="font-family: 'Courier New', monospace;">TyzNLym6</td>
+                
+                
+                <td class="text-center">
+                                            -
+                                    </td>
+                
+                
+                <td class="text-center">
+                                            27/11/2025 04:31
+                                    </td>
+                
+                
+                <td class="bg-blue">Santi</td>
+                <td class="bg-blue">34</td>
+                <td class="bg-blue wrap-text">fsffffffffffffffffffffffff</td>
+                
+                
+                <td class="bg-orange">dsf</td>
+                <td class="bg-orange"> Corporate Affairs Directorate</td>
+                
+                
+                <td class="text-center">
+                                        <span class="status-badge status-open">
+                        Open
+                    </span>
+                </td>
+                
+                
+                <td>Korupsi atau Suap</td>
+                
+                
+                <td class="wrap-text">
+                    <strong>Perihal:</strong> sdfsf<br>
+                                        <strong>Uraian:</strong> dsfsfsddddddddddddddd
+                                    </td>
+                
+                
+                <td class="text-center">System</td>
+                
+                
+                <td class="text-center">
+                                            27/11/2025 04:31
+                                    </td>
+            </tr>
+                        <tr>
+                
+                <td class="row-number">6</td>
+                
+                
+                <td style="font-family: 'Courier New', monospace;">0fZRExc6</td>
+                
+                
+                <td class="text-center">
+                                            -
+                                    </td>
+                
+                
+                <td class="text-center">
+                                            27/11/2025 04:33
+                                    </td>
+                
+                
+                <td class="bg-blue">Santi</td>
+                <td class="bg-blue">4</td>
+                <td class="bg-blue wrap-text">wer</td>
+                
+                
+                <td class="bg-orange">34</td>
+                <td class="bg-orange">Finance Directorate</td>
+                
+                
+                <td class="text-center">
+                                        <span class="status-badge status-lengkap-[in]">
+                        Lengkap [In]
+                    </span>
+                </td>
+                
+                
+                <td>Korupsi atau Suap</td>
+                
+                
+                <td class="wrap-text">
+                    <strong>Perihal:</strong> ewr<br>
+                                        <strong>Uraian:</strong> wer
+                                    </td>
+                
+                
+                <td class="text-center">System</td>
+                
+                
+                <td class="text-center">
+                                            27/11/2025 04:33
+                                    </td>
+            </tr>
+                        <tr>
+                
+                <td class="row-number">7</td>
+                
+                
+                <td style="font-family: 'Courier New', monospace;">zp8vBxj3</td>
+                
+                
+                <td class="text-center">
+                                            -
+                                    </td>
+                
+                
+                <td class="text-center">
+                                            27/11/2025 04:42
+                                    </td>
+                
+                
+                <td class="bg-blue">Santi</td>
+                <td class="bg-blue">4356435</td>
+                <td class="bg-blue wrap-text">alamat Lorem ipsum, atau ringkasnya lipsum,</td>
+                
+                
+                <td class="bg-orange">tweywye</td>
+                <td class="bg-orange">Finance Directorate</td>
+                
+                
+                <td class="text-center">
+                                        <span class="status-badge status-lengkap-[in]">
+                        Lengkap [In]
+                    </span>
+                </td>
+                
+                
+                <td>Benturan Kepentingan</td>
+                
+                
+                <td class="wrap-text">
+                    <strong>Perihal:</strong> perihal Lorem ipsum, atau ringkasnya lipsum,<br>
+                                        <strong>Uraian:</strong> uraian Lorem ipsum, atau ringkasnya lipsum,
+                                    </td>
+                
+                
+                <td class="text-center">System</td>
+                
+                
+                <td class="text-center">
+                                            27/11/2025 04:42
+                                    </td>
+            </tr>
+                        <tr>
+                
+                <td class="row-number">8</td>
+                
+                
+                <td style="font-family: 'Courier New', monospace;">zp8vBxj1</td>
+                
+                
+                <td class="text-center">
+                                            -
+                                    </td>
+                
+                
+                <td class="text-center">
+                                            27/11/2025 04:42
+                                    </td>
+                
+                
+                <td class="bg-blue">Santi</td>
+                <td class="bg-blue">4356435</td>
+                <td class="bg-blue wrap-text">alamat Lorem ipsum, atau ringkasnya lipsum,</td>
+                
+                
+                <td class="bg-orange">tweywye</td>
+                <td class="bg-orange">Finance Directorate</td>
+                
+                
+                <td class="text-center">
+                                        <span class="status-badge status-lengkap-[in]">
+                        Lengkap [In]
+                    </span>
+                </td>
+                
+                
+                <td>Benturan Kepentingan</td>
+                
+                
+                <td class="wrap-text">
+                    <strong>Perihal:</strong> perihal Lorem ipsum, atau ringkasnya lipsum,<br>
+                                        <strong>Uraian:</strong> uraian Lorem ipsum, atau ringkasnya lipsum,
+                                    </td>
+                
+                
+                <td class="text-center">System</td>
+                
+                
+                <td class="text-center">
+                                            27/11/2025 04:42
+                                    </td>
+            </tr>
+                        <tr>
+                
+                <td class="row-number">9</td>
+                
+                
+                <td style="font-family: 'Courier New', monospace;">222</td>
+                
+                
+                <td class="text-center">
+                                            -
+                                    </td>
+                
+                
+                <td class="text-center">
+                                            27/11/2025 04:42
+                                    </td>
+                
+                
+                <td class="bg-blue">Santi</td>
+                <td class="bg-blue">4356435</td>
+                <td class="bg-blue wrap-text">alamat Lorem ipsum, atau ringkasnya lipsum,</td>
+                
+                
+                <td class="bg-orange">tweywye</td>
+                <td class="bg-orange">Finance Directorate</td>
+                
+                
+                <td class="text-center">
+                                        <span class="status-badge status-lengkap-[in]">
+                        Lengkap [In]
+                    </span>
+                </td>
+                
+                
+                <td>Benturan Kepentingan</td>
+                
+                
+                <td class="wrap-text">
+                    <strong>Perihal:</strong> perihal Lorem ipsum, atau ringkasnya lipsum,<br>
+                                        <strong>Uraian:</strong> uraian Lorem ipsum, atau ringkasnya lipsum,
+                                    </td>
+                
+                
+                <td class="text-center">System</td>
+                
+                
+                <td class="text-center">
+                                            27/11/2025 04:42
+                                    </td>
+            </tr>
+                        <tr>
+                
+                <td class="row-number">10</td>
+                
+                
+                <td style="font-family: 'Courier New', monospace;">dsfgtrRF</td>
+                
+                
+                <td class="text-center">
+                                            -
+                                    </td>
+                
+                
+                <td class="text-center">
+                                            27/11/2025 04:42
+                                    </td>
+                
+                
+                <td class="bg-blue">Santi</td>
+                <td class="bg-blue">4356435</td>
+                <td class="bg-blue wrap-text">alamat Lorem ipsum, atau ringkasnya lipsum,</td>
+                
+                
+                <td class="bg-orange">tweywye</td>
+                <td class="bg-orange">Finance Directorate</td>
+                
+                
+                <td class="text-center">
+                                        <span class="status-badge status-lengkap-[in]">
+                        Lengkap [In]
+                    </span>
+                </td>
+                
+                
+                <td>Benturan Kepentingan</td>
+                
+                
+                <td class="wrap-text">
+                    <strong>Perihal:</strong> perihal Lorem ipsum, atau ringkasnya lipsum,<br>
+                                        <strong>Uraian:</strong> uraian Lorem ipsum, atau ringkasnya lipsum,
+                                    </td>
+                
+                
+                <td class="text-center">System</td>
+                
+                
+                <td class="text-center">
+                                            27/11/2025 04:42
+                                    </td>
+            </tr>
+                    </tbody>
+    </table>
+
+    
+    <div class="footer">
+        Dokumen ini dibuat secara otomatis oleh Sistem Pengaduan | Halaman 1
+    </div>
+</body>
+</html>

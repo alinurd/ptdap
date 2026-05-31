@@ -1,0 +1,227 @@
+<div class="header">
+        <h1>LAPORAN PENGADUAN</h1>
+        <div class="subtitle">
+            Dicetak pada: 28/11/2025 09:57 | Total Data: 10 records
+                            | Periode: November 2025
+                    </div>
+    </div>
+
+    
+        <div class="filter-info">
+        <strong>Filter yang diterapkan:</strong>
+                    <span class="filter-item">
+                <strong>Periode:</strong> Semua Data
+            </span>
+            </div>
+    
+    
+<table border="1" style="border-collapse:collapse; ; width:100%;">
+        <thead>
+            <tr>
+                <th  width="30">NO</th>
+                <th  width="100">Kode Tracking</th>
+                <th  width="80">Username</th>
+                <th  width="90">Nama</th>
+                <th  width="90">Jenis Pelanggaran</th>  
+                <th  width="90">Perihal</th> 
+                <th  width="90">Uraian</th> 
+                <th  width="90">Kontak Detail</th> 
+                <th  width="90">Perkiraan Waktu Kejadian</th> 
+                <th  width="90">Nama Terlapor</th> 
+                <th  width="90">Direktorat</th> 
+                <th  width="90">Tanggal Aduan</th> 
+            </tr>
+        </thead>
+        <tbody>
+                        <tr>
+                <td class="row-number">1</td>
+                <td style="font-family: 'Courier New', monospace;">ADU-20251124-xYsOlg</td>
+                <td class="bg-blue">-</td>
+                <td class="bg-blue">pelaporTNU</td>
+                <td>Korupsi atau Suap</td>
+                <td>ada suap ges </td>
+                <td>melakukan akitivitas suap di larang dimanapun berada</td>
+                 <td>suatu tempat di negara konoha </td>
+                <td class="text-center">
+                                            24/11/2025
+                                    </td>
+                
+                <td class="bg-orange">arya saputra </td>
+                <td class="bg-orange">Finance Directorate</td>
+                <td class="text-center">
+                                            26/11/2025
+                                    </td>
+            </tr>
+                        <tr>
+                <td class="row-number">2</td>
+                <td style="font-family: 'Courier New', monospace;">ADU-20251125-fMyM5z</td>
+                <td class="bg-blue">-</td>
+                <td class="bg-blue">pelaporTNU</td>
+                <td>Benturan Kepentingan</td>
+                <td>tes  1</td>
+                <td>arya adalah sebauy nama yang tungtung sahutr</td>
+                 <td>arya adalah sebauy nama yang tungtung sahutr jkrta </td>
+                <td class="text-center">
+                                            25/11/2025
+                                    </td>
+                
+                <td class="bg-orange">arya ganteng </td>
+                <td class="bg-orange">Finance Directorate</td>
+                <td class="text-center">
+                                            26/11/2025
+                                    </td>
+            </tr>
+                        <tr>
+                <td class="row-number">3</td>
+                <td style="font-family: 'Courier New', monospace;">ADU-20251125-XcksK8</td>
+                <td class="bg-blue">-</td>
+                <td class="bg-blue">pelaporTNU</td>
+                <td>Benturan Kepentingan</td>
+                <td>makan makan makan apa </td>
+                <td>Easily generate Lorem Ipsum placeholder text in any number of characters, words sentences or paragraphs. Learn about the origins of the passage and its history, from the Roman era to today.</td>
+                 <td>Easily generate Lorem Ipsum placeholder text in any number of characters, words sentences or paragraphs. Learn about the origins of the passage and its history, from the Roman era to today. jakarta</td>
+                <td class="text-center">
+                                            25/11/2025
+                                    </td>
+                
+                <td class="bg-orange">arya indra saputra </td>
+                <td class="bg-orange">Finance Directorate</td>
+                <td class="text-center">
+                                            26/11/2025
+                                    </td>
+            </tr>
+                        <tr>
+                <td class="row-number">4</td>
+                <td style="font-family: 'Courier New', monospace;">ADU-20251125-4Yg6Yw</td>
+                <td class="bg-blue">-</td>
+                <td class="bg-blue">pelapor</td>
+                <td>Benturan Kepentingan</td>
+                <td>sdfgsfds</td>
+                <td>Uraian Uraian Uraian Uraian </td>
+                 <td>Alamat Tempat Kejadi</td>
+                <td class="text-center">
+                                            25/11/2025
+                                    </td>
+                
+                <td class="bg-orange">Nama Terlapo</td>
+                <td class="bg-orange">Finance Directorate</td>
+                <td class="text-center">
+                                            26/11/2025
+                                    </td>
+            </tr>
+                        <tr>
+                <td class="row-number">5</td>
+                <td style="font-family: 'Courier New', monospace;">PiERsCyi</td>
+                <td class="bg-blue">-</td>
+                <td class="bg-blue">pelapor</td>
+                <td>Korupsi atau Suap</td>
+                <td>prihalprihalprihal</td>
+                <td>Uraian Uraian Uraian Uraian Uraian Uraian </td>
+                 <td>Alamat Tempat KejAlamat Tempat KejAlamat Tempat Kej</td>
+                <td class="text-center">
+                                            25/11/2025
+                                    </td>
+                
+                <td class="bg-orange">namPel</td>
+                <td class="bg-orange">Finance Directorate</td>
+                <td class="text-center">
+                                            26/11/2025
+                                    </td>
+            </tr>
+                        <tr>
+                <td class="row-number">6</td>
+                <td style="font-family: 'Courier New', monospace;">ZhJCDmRG</td>
+                <td class="bg-blue">-</td>
+                <td class="bg-blue">pelapor</td>
+                <td>Lainnya</td>
+                <td>asjhgvdiysavf</td>
+                <td>Uraian Uraian Uraian </td>
+                 <td>Alamat Tempat KejadianAlamat Tempat KejadianAlamat Tempat Kejadian</td>
+                <td class="text-center">
+                                            25/11/2025
+                                    </td>
+                
+                <td class="bg-orange">asdasd</td>
+                <td class="bg-orange">Finance Directorate</td>
+                <td class="text-center">
+                                            26/11/2025
+                                    </td>
+            </tr>
+                        <tr>
+                <td class="row-number">7</td>
+                <td style="font-family: 'Courier New', monospace;">lULIMOLt</td>
+                <td class="bg-blue">-</td>
+                <td class="bg-blue">pelaporTNU</td>
+                <td>Penyalahgunaan Kewenangan Jabatan</td>
+                <td>yttes 1</td>
+                <td>Easily generate Lorem Ipsum placeholder text in any number of characters, words sentences or paragraphs. Learn about the origins of the passage and its history, from the Roman era to today.  tes  3</td>
+                 <td>Easily generate Lorem Ipsum placeholder text in any number of characters, words sentences or paragraphs. Learn about the origins of the passage and its history, from the Roman era to today.  2</td>
+                <td class="text-center">
+                                            26/11/2025
+                                    </td>
+                
+                <td class="bg-orange">aryta </td>
+                <td class="bg-orange">Operations Directorate</td>
+                <td class="text-center">
+                                            26/11/2025
+                                    </td>
+            </tr>
+                        <tr>
+                <td class="row-number">8</td>
+                <td style="font-family: 'Courier New', monospace;">3DCFDx7c</td>
+                <td class="bg-blue">-</td>
+                <td class="bg-blue">pelapor</td>
+                <td>Korupsi atau Suap</td>
+                <td>perihalperihal</td>
+                <td>uraianuraianuraian</td>
+                 <td>alamatalamatalamat</td>
+                <td class="text-center">
+                                            26/11/2025
+                                    </td>
+                
+                <td class="bg-orange">cek flow</td>
+                <td class="bg-orange">Finance Directorate</td>
+                <td class="text-center">
+                                            26/11/2025
+                                    </td>
+            </tr>
+                        <tr>
+                <td class="row-number">9</td>
+                <td style="font-family: 'Courier New', monospace;">vj7uua5T</td>
+                <td class="bg-blue">-</td>
+                <td class="bg-blue">pelaporTNU</td>
+                <td>Penyalahgunaan Kewenangan Jabatan</td>
+                <td>laporan flow </td>
+                <td>ARYAADWAD ADAWDAD</td>
+                 <td> AWARYAADWAD ADAWDAD</td>
+                <td class="text-center">
+                                            26/11/2025
+                                    </td>
+                
+                <td class="bg-orange">arya 12312313</td>
+                <td class="bg-orange">Finance Directorate</td>
+                <td class="text-center">
+                                            26/11/2025
+                                    </td>
+            </tr>
+                        <tr>
+                <td class="row-number">10</td>
+                <td style="font-family: 'Courier New', monospace;">2bp0CfNV</td>
+                <td class="bg-blue">-</td>
+                <td class="bg-blue">pelaporTNU</td>
+                <td>Benturan Kepentingan</td>
+                <td>asdaasda sdasd</td>
+                <td>awdwdadasd asd as</td>
+                 <td>asd asdasd asd</td>
+                <td class="text-center">
+                                            26/11/2025
+                                    </td>
+                
+                <td class="bg-orange">asd</td>
+                <td class="bg-orange">President Directorate</td>
+                <td class="text-center">
+                                            26/11/2025
+                                    </td>
+            </tr>
+                    </tbody>
+    </table>

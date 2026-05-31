@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Laporan Pengaduan</title>
+    
+</head>
+<body>
+    
+    <div class="header">
+        <h1>LAPORAN PENGADUAN LENGKAP</h1>
+        <div class="subtitle">
+            Dicetak pada: 28/11/2025 06:26 | Total Data: 10 records
+                            | Periode: November 2025
+                    </div>
+    </div>
+
+    
+        <div class="filter-info">
+        <strong>Filter yang diterapkan:</strong>
+                    <span class="filter-item">
+                <strong>Periode:</strong> Semua Data
+            </span>
+            </div>
+    
+    
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2" width="30">NO</th>
+                <th rowspan="2" width="100">KODE TRACKING</th>
+                <th rowspan="2" width="80">WAKTU KEJADIAN</th>
+                <th rowspan="2" width="90">TANGGAL ADUAN</th>
+                
+                
+                <th colspan="3" class="bg-blue">IDENTITAS PELAPOR</th>
+                
+                
+                <th colspan="2" class="bg-orange">IDENTITAS TERLAPOR</th>
+                
+                <th rowspan="2" width="70">STATUS</th>
+                <th rowspan="2" width="100">JENIS PELANGGARAN</th>
+                <th rowspan="2" width="150">PERIHAL & URAIAN</th>
+                <th rowspan="2" width="80">ADMIN</th>
+                <th rowspan="2" width="90">TANGGAL DIBUAT</th>
+            </tr>
+            <tr>
+                
+                <th width="80" class="bg-blue">NAMA</th>
+                <th width="80" class="bg-blue">NOMOR PONSEL</th>
+                <th width="120" class="bg-blue">KONTAK DETAIL</th>
+                
+                
+                <th width="80" class="bg-orange">NAMA</th>
+                <th width="100" class="bg-orange">DIREKTORAT</th>
+            </tr>
+        </thead>
+        <tbody>
+                        <tr>
+                
+                <td class="row-number">1</td>
+                
+                
+                <td style="font-family: 'Courier New', monospace;">ADU-20251124-xYsOlg</td>
+                
+                
+                <td class="text-center">
+                                            -
+                                    </td>
+                
+                
+                <td class="text-center">
+                                            26/11/2025 17:25
+                                    </td>
+                
+                
+                <td class="bg-blue">pelaporTNU</td>
+                <td class="bg-blue">089512565685</td>
+                <td class="bg-blue wrap-text">suatu tempat di negara konoha </td>
+                
+                
+                <td class="bg-orange">arya saputra </td>
+                <td class="bg-orange">Finance Directorate</td>
+                
+                
+                <td class="text-center">
+                                        <span class="status-badge status-open">
+                        Open
+                    </span>
+                </td>
+                
+                
+                <td>Korupsi atau Suap</td>
+                
+                
+                <td class="wrap-text">
+                    <strong>Perihal:</strong> ada suap ges <br>
+                                        <strong>Uraian:</strong> melakukan akitivitas suap di larang dimanapun berada
+                                    </td>
+                
+                
+                <td class="text-center">System</td>
+                
+                
+                <td class="text-center">
+                                            24/11/2025 09:13
+                                    </td>
+            </tr>
+                        <tr>
+                
+                <td class="row-number">2</td>
+                
+                
+                <td style="font-family: 'Courier New', monospace;">ADU-20251125-fMyM5z</td>
+                
+                
+                <td class="text-center">
+                                            -
+                                    </td>
+                
+                
+                <td class="text-center">
+                                            26/11/2025 17:25
+                                    </td>
+                
+                
+                <td class="bg-blue">pelaporTNU</td>
+                <td class="bg-blue">123456789123</td>
+                <td class="bg-blue wrap-text">arya adalah sebauy nama yang tungtung sahutr jkrta </td>
+                
+                
+                <td class="bg-orange">arya ganteng </td>
+                <td class="bg-orange">Finance Directorate</td>
+                
+                
+                <td class="text-center">
+                                        <span class="status-badge status-open">
+                        Open
+                    </span>
+                </td>
+                
+                
+                <td>Benturan Kepentingan</td>
+                
+                
+                <td class="wrap-text">
+                    <strong>Perihal:</strong> tes  1<br>
+                                        <strong>Uraian:</strong> arya adalah sebauy nama yang tungtung sahutr
+                                    </td>
+                
+                
+                <td class="text-center">System</td>
+                
+                
+                <td class="text-center">
+                                            25/11/2025 02:33
+                                    </td>
+            </tr>
+                        <tr>
+                
+                <td class="row-number">3</td>
+                
+                
+                <td style="font-family: 'Courier New', monospace;">ADU-20251125-XcksK8</td>
+                
+                
+                <td class="text-center">
+                                            -
+                                    </td>
+                
+                
+                <td class="text-center">
+                                            26/11/2025 18:03
+                                    </td>
+                
+                
+                <td class="bg-blue">pelaporTNU</td>
+                <td class="bg-blue">089512565685</td>
+                <td class="bg-blue wrap-text">Easily generate Lorem Ipsum placeholder text in any number of characters, words sentences or paragraphs. Learn about the origins of the passage and its history, from the Roman era to today. jakarta</td>
+                
+                
+                <td class="bg-orange">arya indra saputra </td>
+                <td class="bg-orange">Finance Directorate</td>
+                
+                
+                <td class="text-center">
+                                        <span class="status-badge status-tidak-cukup">
+                        Tidak Cukup
+                    </span>
+                </td>
+                
+                
+                <td>Benturan Kepentingan</td>
+                
+                
+                <td class="wrap-text">
+                    <strong>Perihal:</strong> makan makan makan apa <br>
+                                        <strong>Uraian:</strong> Easily generate Lorem Ipsum placeholder text in any number of characters, words sentences or paragra...
+                                    </td>
+                
+                
+                <td class="text-center">System</td>
+                
+                
+                <td class="text-center">
+                                            25/11/2025 03:31
+                                    </td>
+            </tr>
+                        <tr>
+                
+                <td class="row-number">4</td>
+                
+                
+                <td style="font-family: 'Courier New', monospace;">ADU-20251125-4Yg6Yw</td>
+                
+                
+                <td class="text-center">
+                                            -
+                                    </td>
+                
+                
+                <td class="text-center">
+                                            26/11/2025 17:56
+                                    </td>
+                
+                
+                <td class="bg-blue">pelapor</td>
+                <td class="bg-blue">8475748758</td>
+                <td class="bg-blue wrap-text">Alamat Tempat Kejadi</td>
+                
+                
+                <td class="bg-orange">Nama Terlapo</td>
+                <td class="bg-orange">Finance Directorate</td>
+                
+                
+                <td class="text-center">
+                                        <span class="status-badge status-disetujui">
+                        Disetujui
+                    </span>
+                </td>
+                
+                
+                <td>Benturan Kepentingan</td>
+                
+                
+                <td class="wrap-text">
+                    <strong>Perihal:</strong> sdfgsfds<br>
+                                        <strong>Uraian:</strong> Uraian Uraian Uraian Uraian 
+                                    </td>
+                
+                
+                <td class="text-center">System</td>
+                
+                
+                <td class="text-center">
+                                            25/11/2025 09:22
+                                    </td>
+            </tr>
+                        <tr>
+                
+                <td class="row-number">5</td>
+                
+                
+                <td style="font-family: 'Courier New', monospace;">PiERsCyi</td>
+                
+                
+                <td class="text-center">
+                                            -
+                                    </td>
+                
+                
+                <td class="text-center">
+                                            26/11/2025 17:54
+                                    </td>
+                
+                
+                <td class="bg-blue">pelapor</td>
+                <td class="bg-blue">878788</td>
+                <td class="bg-blue wrap-text">Alamat Tempat KejAlamat Tempat KejAlamat Tempat Kej</td>
+                
+                
+                <td class="bg-orange">namPel</td>
+                <td class="bg-orange">Finance Directorate</td>
+                
+                
+                <td class="text-center">
+                                        <span class="status-badge status-disetujui">
+                        Disetujui
+                    </span>
+                </td>
+                
+                
+                <td>Korupsi atau Suap</td>
+                
+                
+                <td class="wrap-text">
+                    <strong>Perihal:</strong> prihalprihalprihal<br>
+                                        <strong>Uraian:</strong> Uraian Uraian Uraian Uraian Uraian Uraian 
+                                    </td>
+                
+                
+                <td class="text-center">System</td>
+                
+                
+                <td class="text-center">
+                                            25/11/2025 10:45
+                                    </td>
+            </tr>
+                        <tr>
+                
+                <td class="row-number">6</td>
+                
+                
+                <td style="font-family: 'Courier New', monospace;">ZhJCDmRG</td>
+                
+                
+                <td class="text-center">
+                                            -
+                                    </td>
+                
+                
+                <td class="text-center">
+                                            26/11/2025 17:47
+                                    </td>
+                
+                
+                <td class="bg-blue">pelapor</td>
+                <td class="bg-blue">435</td>
+                <td class="bg-blue wrap-text">Alamat Tempat KejadianAlamat Tempat KejadianAlamat Tempat Kejadian</td>
+                
+                
+                <td class="bg-orange">asdasd</td>
+                <td class="bg-orange">Finance Directorate</td>
+                
+                
+                <td class="text-center">
+                                        <span class="status-badge status-tidak-cukup">
+                        Tidak Cukup
+                    </span>
+                </td>
+                
+                
+                <td>Lainnya</td>
+                
+                
+                <td class="wrap-text">
+                    <strong>Perihal:</strong> asjhgvdiysavf<br>
+                                        <strong>Uraian:</strong> Uraian Uraian Uraian 
+                                    </td>
+                
+                
+                <td class="text-center">System</td>
+                
+                
+                <td class="text-center">
+                                            25/11/2025 10:49
+                                    </td>
+            </tr>
+                        <tr>
+                
+                <td class="row-number">7</td>
+                
+                
+                <td style="font-family: 'Courier New', monospace;">lULIMOLt</td>
+                
+                
+                <td class="text-center">
+                                            -
+                                    </td>
+                
+                
+                <td class="text-center">
+                                            26/11/2025 17:35
+                                    </td>
+                
+                
+                <td class="bg-blue">pelaporTNU</td>
+                <td class="bg-blue">090909090909</td>
+                <td class="bg-blue wrap-text">Easily generate Lorem Ipsum placeholder text in any number of characters, words sentences or paragraphs. Learn about the origins of the passage and its history, from the Roman era to today.  2</td>
+                
+                
+                <td class="bg-orange">aryta </td>
+                <td class="bg-orange">Operations Directorate</td>
+                
+                
+                <td class="text-center">
+                                        <span class="status-badge status-disetujui">
+                        Disetujui
+                    </span>
+                </td>
+                
+                
+                <td>Penyalahgunaan Kewenangan Jabatan</td>
+                
+                
+                <td class="wrap-text">
+                    <strong>Perihal:</strong> yttes 1<br>
+                                        <strong>Uraian:</strong> Easily generate Lorem Ipsum placeholder text in any number of characters, words sentences or paragra...
+                                    </td>
+                
+                
+                <td class="text-center">System</td>
+                
+                
+                <td class="text-center">
+                                            26/11/2025 10:20
+                                    </td>
+            </tr>
+                        <tr>
+                
+                <td class="row-number">8</td>
+                
+                
+                <td style="font-family: 'Courier New', monospace;">3DCFDx7c</td>
+                
+                
+                <td class="text-center">
+                                            -
+                                    </td>
+                
+                
+                <td class="text-center">
+                                            26/11/2025 17:34
+                                    </td>
+                
+                
+                <td class="bg-blue">pelapor</td>
+                <td class="bg-blue">7657656567</td>
+                <td class="bg-blue wrap-text">alamatalamatalamat</td>
+                
+                
+                <td class="bg-orange">cek flow</td>
+                <td class="bg-orange">Finance Directorate</td>
+                
+                
+                <td class="text-center">
+                                        <span class="status-badge status-perlu-klarifikasi-lebih-lanjut">
+                        Perlu klarifikasi lebih lanjut
+                    </span>
+                </td>
+                
+                
+                <td>Korupsi atau Suap</td>
+                
+                
+                <td class="wrap-text">
+                    <strong>Perihal:</strong> perihalperihal<br>
+                                        <strong>Uraian:</strong> uraianuraianuraian
+                                    </td>
+                
+                
+                <td class="text-center">System</td>
+                
+                
+                <td class="text-center">
+                                            26/11/2025 11:05
+                                    </td>
+            </tr>
+                        <tr>
+                
+                <td class="row-number">9</td>
+                
+                
+                <td style="font-family: 'Courier New', monospace;">vj7uua5T</td>
+                
+                
+                <td class="text-center">
+                                            -
+                                    </td>
+                
+                
+                <td class="text-center">
+                                            26/11/2025 17:33
+                                    </td>
+                
+                
+                <td class="bg-blue">pelaporTNU</td>
+                <td class="bg-blue">090909090909</td>
+                <td class="bg-blue wrap-text"> AWARYAADWAD ADAWDAD</td>
+                
+                
+                <td class="bg-orange">arya 12312313</td>
+                <td class="bg-orange">Finance Directorate</td>
+                
+                
+                <td class="text-center">
+                                        <span class="status-badge status-disetujui">
+                        Disetujui
+                    </span>
+                </td>
+                
+                
+                <td>Penyalahgunaan Kewenangan Jabatan</td>
+                
+                
+                <td class="wrap-text">
+                    <strong>Perihal:</strong> laporan flow <br>
+                                        <strong>Uraian:</strong> ARYAADWAD ADAWDAD
+                                    </td>
+                
+                
+                <td class="text-center">System</td>
+                
+                
+                <td class="text-center">
+                                            26/11/2025 21:40
+                                    </td>
+            </tr>
+                        <tr>
+                
+                <td class="row-number">10</td>
+                
+                
+                <td style="font-family: 'Courier New', monospace;">2bp0CfNV</td>
+                
+                
+                <td class="text-center">
+                                            -
+                                    </td>
+                
+                
+                <td class="text-center">
+                                            26/11/2025 17:31
+                                    </td>
+                
+                
+                <td class="bg-blue">pelaporTNU</td>
+                <td class="bg-blue">123123123123</td>
+                <td class="bg-blue wrap-text">asd asdasd asd</td>
+                
+                
+                <td class="bg-orange">asd</td>
+                <td class="bg-orange">President Directorate</td>
+                
+                
+                <td class="text-center">
+                                        <span class="status-badge status-perlu-klarifikasi-lebih-lanjut">
+                        Perlu klarifikasi lebih lanjut
+                    </span>
+                </td>
+                
+                
+                <td>Benturan Kepentingan</td>
+                
+                
+                <td class="wrap-text">
+                    <strong>Perihal:</strong> asdaasda sdasd<br>
+                                        <strong>Uraian:</strong> awdwdadasd asd as
+                                    </td>
+                
+                
+                <td class="text-center">System</td>
+                
+                
+                <td class="text-center">
+                                            26/11/2025 22:20
+                                    </td>
+            </tr>
+                    </tbody>
+    </table>
+
+    
+    <div class="footer">
+        Dokumen ini dibuat secara otomatis oleh Sistem Pengaduan | Halaman 1
+    </div>
+</body>
+</html>
