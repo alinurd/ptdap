@@ -22,3 +22,4 @@ yarn-error.log
 resources/views/templateViewMaster/* 
 app/Console/Commands/MakeModule.php 
 doc/*
+node_modules
