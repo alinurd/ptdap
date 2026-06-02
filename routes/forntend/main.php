@@ -15,4 +15,6 @@ Route::name('guest.')->group(function () {
     Route::get('/berita/{slug}', [$c, 'beritaDetail'])->name('berita.detail');
     Route::get('/hubungi-kami', [$c, 'hubungiKami'])->name('hubungi-kami');
     Route::post('/hubungi-kami/kirim', [$c, 'sendContact'])->name('contact.send');
+        Route::get('/404', [$c, 'errors'])->name('404');
+
 });

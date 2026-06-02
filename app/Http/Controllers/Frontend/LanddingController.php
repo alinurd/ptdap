@@ -55,6 +55,7 @@ class LanddingController extends Controller
 
     public function organisasiManajemen()
     {
+         return $this->errors();
         return view('frontend.organisasi-manajemen', [
             'setting'  => $this->setting(),
             'banner'   => $this->halamanBanner('organisasi-manajemen'),
@@ -64,6 +65,7 @@ class LanddingController extends Controller
 
     public function sertifikasi()
     {
+        return $this->errors();
         return view('frontend.sertifikasi', [
             'setting' => $this->setting(),
             'banner'  => $this->halamanBanner('sertifikasi'),
@@ -73,6 +75,7 @@ class LanddingController extends Controller
 
     public function produkLayanan()
     {
+        return $this->errors();
         return view('frontend.produk-layanan', [
             'setting' => $this->setting(),
             'banner'  => $this->halamanBanner('produk-layanan'),
@@ -82,6 +85,7 @@ class LanddingController extends Controller
 
     public function pengalaman()
     {
+        return $this->errors();
         return view('frontend.pengalaman', [
             'setting'      => $this->setting(),
             'banner'       => $this->halamanBanner('pengalaman'),
@@ -91,6 +95,7 @@ class LanddingController extends Controller
 
     public function berita()
     {
+        return $this->errors();
         return view('frontend.berita', [
             'setting'   => $this->setting(),
             'banner'    => $this->halamanBanner('berita'),
@@ -102,6 +107,7 @@ class LanddingController extends Controller
 
     public function beritaDetail($slug)
     {
+        return $this->errors();
         return view('frontend.berita-detail', [
             'setting' => $this->setting(),
             'berita'  => Berita::where('slug', $slug)->where('status', 1)->firstOrFail(),
@@ -111,12 +117,21 @@ class LanddingController extends Controller
 
     public function hubungiKami()
     {
+        return $this->errors();
         return view('frontend.hubungi-kami', [
             'setting' => $this->setting(),
             'banner'  => $this->halamanBanner('hubungi-kami'),
         ]);
     }
+    public function errors()
+    {
+        return view('frontend.errors.404', [
+            'setting' => $this->setting(),
+            'banner'  => $this->halamanBanner('hubungi-kami'),
+        ]);
+    }
 
+    
     public function sendContact(Request $request)
     {
         $request->validate([

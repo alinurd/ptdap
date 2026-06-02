@@ -17,6 +17,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function() {
     return redirect()->route('guest.home');
 });
+Route::get('/404', function() {
+    return redirect()->route('guest.404');
+});
 
  
 Route::get('/login', function() {
