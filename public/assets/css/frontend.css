@@ -492,10 +492,10 @@ a { text-decoration: none; color: inherit; }
 .permodalan-stats .dot { width: 16px; height: 16px; border-radius: 50%; flex-shrink: 0; margin-top: 4px; }
 .permodalan-stats .dot-navy { background: var(--navy); }
 .permodalan-stats .dot-red  { background: var(--red); }
-.permodalan-stats .stat-pct { font-size: 1.6rem; font-weight: 800; line-height: 1; }
-.permodalan-stats .stat-label { font-size: 13px; color: var(--text-light); margin-top: 4px; }
+.permodalan-stats .stat-pct { font-size: 1.2rem; font-weight: 800; line-height: 1; }
+.permodalan-stats .stat-label { font-size: 18px; color: var(--text-light); margin-top: 4px; }
 .permodalan-stats .saham-row { display: flex; gap: 40px; flex-wrap: wrap; }
-.permodalan-stats .saham-item small { font-size: 12px; color: var(--text-light); }
+.permodalan-stats .saham-item small { font-size: 18px; color: var(--text-light); }
 .permodalan-stats .saham-num { font-size: 2rem; font-weight: 800; line-height: 1.1; }
 .permodalan-stats .saham-tag { font-weight: 800; font-size: 14px; }
 

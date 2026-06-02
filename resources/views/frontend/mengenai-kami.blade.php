@@ -88,32 +88,43 @@
 </section>
 
 {{-- ===================== STRUKTUR PERMODALAN ===================== --}}
-<section class="struktur-permodalan">
+<section class="struktur-permodalan" style="
+        background-image:url('{{ asset('assets/img/material/home-ptdap-02.jpg') }}');
+        background-size:cover;
+        background-position: center 100%;
+             min-height:400px;">
     <div class="container">
         <h2 class="section-title text-center mb-5">Struktur Permodalan</h2>
         <div class="row g-4 align-items-center">
             <div class="col-md-6 text-center">
-                <div class="donut-chart"
-                     style="background: conic-gradient(var(--navy) 0% 97.33%, var(--red) 97.33% 100%);">
-                    <div class="donut-hole"></div>
-                </div>
+                <img src="{{ asset('assets/img/material/mengenai-ptdap-04.png') }}"
+                 alt="Tentang Kami" class="" 
+                      style="width:70%;height:auto;transition:transform .3s ease;">
             </div>
             <div class="col-md-6">
                 <div class="permodalan-stats">
                     <div class="stat-row">
-                        <span class="dot dot-navy"></span>
                         <div class="flex-grow-1">
-                            <span class="stat-pct text-navy">97.33%</span>
-                            <div class="stat-label"><strong>DAPENDA</strong> &mdash; Rp. 23.227.000.000</div>
+                            <img src="{{ asset('assets/img/material/mengenai-ptdap-05.png') }}" alt="Tentang Kami" class="" style="width:70%;height:auto;transition:transform .3s ease;">
                         </div>
                     </div>
-                    <div class="stat-row">
-                        <span class="dot dot-red"></span>
+                    <div class="saham-row">
+                        <div class="stat-row">
+                        <img src="{{ asset('assets/img/material/mengenai-ptdap-06.png') }}" alt="Tentang Kami" class="" style="width:35px;height:auto;transition:transform .3s ease;">
                         <div class="flex-grow-1">
-                            <span class="stat-pct text-red">2.67%</span>
-                            <div class="stat-label"><strong>KSA</strong> &mdash; Rp. 637.000.000</div>
+                            <span class="stat-pct text-navy">DAPEDA</span>
+                            <div class="stat-label">Rp. 23.227.000.000,-</div>
                         </div>
                     </div>
+                    <div class="stat-row" style="margin-left: 60px">
+                        <img src="{{ asset('assets/img/material/mengenai-ptdap-06.png') }}" alt="Tentang Kami" class="" style="width:35px;height:auto;transition:transform .3s ease;">
+                        <div class="flex-grow-1">
+                            <span class="stat-pct text-navy">KSA</span>
+                            <div class="stat-label">Rp. 637.000.000,-</div>
+                        </div>
+                    </div>
+                    </div>
+                    
                     <hr>
                     <div class="saham-row">
                         <div class="saham-item">
