@@ -150,21 +150,25 @@
 
 {{-- ===================== BIDANG USAHA ===================== --}}
 <section class="bidang-usaha-section">
-    <div class="container">
+    <center>
+        <div class="container">
         <div class="bidang-usaha-card">
-            <div class="row g-4 align-items-center">
-                <div class="col-md-4 text-center">
-                    <i class="ti ti-chart-arrows-vertical bidang-icon"></i>
+            <div class="row g-0 align-items-end">
+                <div class="col-md-4 bidang-img-col">
+                    <img src="{{ asset('assets/img/material/mengenai-ptdap-07.png') }}" alt="Bidang Usaha" class="bidang-usaha-img">
                 </div>
-                <div class="col-md-8">
+                <div class="col-md-8 bidang-text-col">
                     <h3>Bidang Usaha</h3>
-                    <p>Sesuai pasal 3 Akta Pendirian, ruang lingkup usaha PT DAP meliputi:</p>
-                    <p><strong>Layanan:</strong> Perawatan kendaraan, rental, pencucian mobil, periklanan,
-                    layanan kebersihan, travel manajemen, pengemudi, resepsionis, tata graha dan pengelolaan wisma.</p>
+                    <div class="bidang-text-scroll">
+                        <p>Sesuai pasal 3 Akta Pendirian, ruang lingkup usaha PT DAP meliputi:</p>
+                        <p><strong>Layanan:</strong> Perawatan kendaraan, rental, pencucian mobil, periklanan,
+                        layanan kebersihan, travel manajemen, pengemudi, resepsionis, tata graha dan pengelolaan wisma.</p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+    </center>
 </section>
 
 {{-- ===================== LEGALITAS PERUSAHAAN ===================== --}}
