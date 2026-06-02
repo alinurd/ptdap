@@ -175,32 +175,59 @@
 <section class="legalitas-section">
     <div class="container">
         <div class="legalitas-card">
-            <h3>Legalitas Perusahaan</h3>
-            <div class="row g-3 mt-2">
-                <div class="col-md-6">
-                    <div class="legal-item"><i class="ti ti-file-certificate"></i>
-                        <span><strong>Akta Pendirian</strong><br>No. 79 (29 Juli 2004)</span></div>
+            <div class="legalitas-inner">
+
+                {{-- Kiri: items + docs --}}
+                <div class="legalitas-items">
+                    <h3>Legalitas Perusahaan</h3>
+                    <div class="row g-0 mt-3">
+                        <div class="col-6">
+                            <div class="legal-item">
+                                <strong>Akta Pendirian</strong>
+                                <span>No. 79 (29 Juli 2004)</span>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="legal-item">
+                                <strong>Pengesahan SK Menkumham</strong>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="legal-item">
+                                <strong>NIB</strong>
+                                <span>9120408961822</span>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="legal-item">
+                                <strong>Surat Domisili Usaha</strong>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="legal-item border-0">
+                                <strong>NPWP</strong>
+                                <span>75.973.645.6-437.000</span>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="legal-item border-0">
+                                <strong>PKP</strong>
+                                <span>Pengukuhan Kena Pajak</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="legalitas-docs">
+                        <img src="{{ asset('assets/img/material/legalitas-material/mengenai-ptdap-08.png') }}"
+                             alt="Dokumen Legalitas" class="img-fluid">
+                    </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="legal-item"><i class="ti ti-check"></i>
-                        <span><strong>Pengesahan SK Menkumham</strong></span></div>
+
+                {{-- Kanan: phone mockup, menyembul ke atas --}}
+                <div class="legalitas-phone">
+                    <img src="{{ asset('assets/img/material/legalitas-material/mengenai-ptdap-09.png') }}"
+                         alt="Legalitas Dokumen">
                 </div>
-                <div class="col-md-6">
-                    <div class="legal-item"><i class="ti ti-id"></i>
-                        <span><strong>NIB</strong><br>9120408961822</span></div>
-                </div>
-                <div class="col-md-6">
-                    <div class="legal-item"><i class="ti ti-map-pin"></i>
-                        <span><strong>Surat Domisili Usaha</strong></span></div>
-                </div>
-                <div class="col-md-6">
-                    <div class="legal-item"><i class="ti ti-receipt-tax"></i>
-                        <span><strong>NPWP</strong><br>75.973.645.6-437.000</span></div>
-                </div>
-                <div class="col-md-6">
-                    <div class="legal-item"><i class="ti ti-building-bank"></i>
-                        <span><strong>PKP</strong> (Pengukuhan Kena Pajak)</span></div>
-                </div>
+
             </div>
         </div>
     </div>
