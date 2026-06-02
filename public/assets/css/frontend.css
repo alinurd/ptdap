@@ -494,10 +494,31 @@ a { text-decoration: none; color: inherit; }
 .permodalan-stats .dot-red  { background: var(--red); }
 .permodalan-stats .stat-pct { font-size: 1.2rem; font-weight: 800; line-height: 1; }
 .permodalan-stats .stat-label { font-size: 18px; color: var(--text-light); margin-top: 4px; }
-.permodalan-stats .saham-row { display: flex; gap: 40px; flex-wrap: wrap; }
-.permodalan-stats .saham-item small { font-size: 18px; color: var(--text-light); }
-.permodalan-stats .saham-num { font-size: 2rem; font-weight: 800; line-height: 1.1; }
-.permodalan-stats .saham-tag { font-weight: 800; font-size: 14px; }
+.permodalan-stats .saham-row  { display: flex; gap: 40px; flex-wrap: wrap; }
+.permodalan-stats .saham-list { display: flex; flex-direction: column; gap: 10px; }
+.permodalan-stats .saham-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+        margin-bottom: 20px;
+
+}
+.permodalan-stats .saham-info {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2;
+    font-size: 15px;
+
+    
+}
+.permodalan-stats .saham-item small {
+            margin-bottom: 10px;
+
+    font-size: 15px;
+    color: var(--text-light);
+}
+.permodalan-stats .saham-num  { font-size: 1.8rem; font-weight: 800; line-height: 1; }
+.permodalan-stats .saham-tag  { font-weight: 800; font-size: 1.1rem; margin-left: 10px; }
 
 /* Bidang Usaha */
 .bidang-usaha-section { padding: 60px 0; }

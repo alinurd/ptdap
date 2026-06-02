@@ -126,15 +126,19 @@
                     </div>
                     
                     <hr>
-                    <div class="saham-row">
+                    <div class="saham-list">
                         <div class="saham-item">
-                            <small>Lembar Saham</small>
-                            <div class="saham-num text-navy">23.227</div>
+                            <div class="saham-info">
+                                <small>Lembar Saham</small>
+                                <div class="saham-num text-navy">23.227</div>
+                            </div>
                             <span class="saham-tag text-red">DAPENDA</span>
                         </div>
                         <div class="saham-item">
-                            <small>Lembar Saham</small>
-                            <div class="saham-num text-navy">637</div>
+                            <div class="saham-info">
+                                <small>Lembar Saham</small>
+                                <div class="saham-num text-navy">637</div>
+                            </div>
                             <span class="saham-tag text-red">KSA</span>
                         </div>
                     </div>
