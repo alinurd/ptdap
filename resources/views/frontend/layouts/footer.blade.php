@@ -4,7 +4,10 @@
 @endphp
 
 <footer class="site-footer">
-    <div class="container">
+    <img src="{{ asset('assets/img/material/footer-kiri.png') }}" alt="" class="footer-img-kiri">
+    <img src="{{ asset('assets/img/material/footer-kanan.png') }}" alt="" class="footer-img-kanan">
+
+    <div class="container footer-content">
         <div class="row g-4">
 
             {{-- Kolom 1: Logo + Deskripsi --}}
@@ -88,7 +91,7 @@
 
     <div class="footer-bottom">
         <div class="container">
-            {{ $set?->footer_text ?? '© ' . date('Y') . ' PT. Delta Angkasa Pratama. All Rights Reserved' }}
+            {{ $set?->footer_text ?? '© Copyright ' . date('Y') . ' PT. Delta Angkasa Pratama. All Rights Reserved' }}
         </div>
     </div>
 </footer>

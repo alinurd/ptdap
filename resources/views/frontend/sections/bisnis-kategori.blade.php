@@ -19,7 +19,9 @@
                                     @if(str_starts_with($item->icon ?? '', 'ti'))
                                         <i class="ti {{ $item->icon }}"></i>
                                     @elseif($item->icon)
-                                        <i class="{{ $item->icon }}"></i>
+                                    <img src="{{ $item?->icon ? asset($item->icon) : asset('') }}" width="90px">
+                 
+                                        {{-- <i class="{{ $item->icon }}"></i> --}}
                                     @else
                                         <i class="ti ti-briefcase"></i>
                                     @endif
