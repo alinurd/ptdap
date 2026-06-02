@@ -217,14 +217,14 @@
                         </div>
                     </div>
                     <div class="legalitas-docs">
-                        <img src="{{ asset('assets/img/material/legalitas-material/mengenai-ptdap-08.png') }}"
+                        <img src="{{ asset('assets/img/material/mengenai-ptdap-08.png') }}"
                              alt="Dokumen Legalitas" class="img-fluid">
                     </div>
                 </div>
 
                 {{-- Kanan: phone mockup, menyembul ke atas --}}
                 <div class="legalitas-phone">
-                    <img src="{{ asset('assets/img/material/legalitas-material/mengenai-ptdap-09.png') }}"
+                    <img src="{{ asset('assets/img/material/mengenai-ptdap-09.png') }}"
                          alt="Legalitas Dokumen">
                 </div>
 
@@ -234,43 +234,88 @@
 </section>
 
 {{-- ===================== MITRA STRATEGIS ===================== --}}
-<section class="about-content-section">
+<section class="mitra-strategis-section">
     <div class="container">
-        <h2 class="section-title mb-4">Mitra Strategis</h2>
-        <div class="row g-3">
-            @forelse($customers as $c)
-            <div class="col-md-6">
-                <div class="mitra-logo-item">
-                    @if($c->image)
-                    <img src="{{ asset($c->image) }}" alt="{{ $c->title ?? $c->nama ?? '' }}">
-                    @endif
-                    <div>
-                        <h6>{{ $c->title ?? $c->nama ?? '' }}</h6>
-                        @if($c->description ?? $c->deskripsi ?? null)
-                        <p>{{ Str::limit($c->description ?? $c->deskripsi, 120) }}</p>
-                        @endif
+        <div class="row g-0 align-items-start">
+
+            {{-- Kiri: foto orang --}}
+            <div class="col-md-4 mitra-person-col">
+                <img src="{{ asset('assets/img/material/MITRA-STRATEGIS/mengenai-ptdap-10.png') }}"
+                     alt="Mitra Strategis" class="mitra-person-img">
+            </div>
+
+            {{-- Kanan: judul + navigasi + daftar mitra --}}
+            <div class="col-md-8 mitra-content-col">
+                <div class="mitra-header">
+                    <h2 class="mitra-title">Mitra Strategis</h2>
+                    <div class="mitra-nav" id="mitraNav">
+                        <button class="mitra-nav-btn" id="mitraPrev" onclick="mitraNav(-1)">
+                            <i class="ti ti-chevron-left"></i>
+                        </button>
+                        <button class="mitra-nav-btn" id="mitraNext" onclick="mitraNav(1)">
+                            <i class="ti ti-chevron-right"></i>
+                        </button>
                     </div>
                 </div>
-            </div>
-            @empty
-            <div class="col-md-6">
-                <div class="mitra-logo-item">
-                    <div><h6>Injourney Airports</h6><p>Manajemen aset dan wisma (Wisma Cimacan).</p></div>
+
+                <div class="mitra-list" id="mitraList">
+                    @forelse($customers as $c)
+                    <div class="mitra-item">
+                        @if($c->image)
+                        <img src="{{ asset($c->image) }}" alt="{{ $c->title ?? $c->nama ?? '' }}" class="mitra-logo">
+                        @endif
+                        <h6>{{ $c->title ?? $c->nama ?? '' }}</h6>
+                        @if($c->description ?? $c->deskripsi ?? null)
+                        <p>{{ $c->description ?? $c->deskripsi }}</p>
+                        @endif
+                    </div>
+                    @empty
+                    <div class="mitra-item">
+                        <h6>Injourney Airports</h6>
+                        <p>Manajemen aset dan wisma (Wisma Cimacan).</p>
+                    </div>
+                    <div class="mitra-item">
+                        <h6>IAS Support</h6>
+                        <p>Pengadaan tenaga kerja dan sumber daya manusia di sektor penerbangan.</p>
+                    </div>
+                    <div class="mitra-item">
+                        <h6>DAPENDA</h6>
+                        <p>Kolaborasi Dana Pensiun Angkasa Pura Indonesia (DAPENDA).</p>
+                    </div>
+                    @endforelse
                 </div>
             </div>
-            <div class="col-md-6">
-                <div class="mitra-logo-item">
-                    <div><h6>IAS Support</h6><p>Pengadaan tenaga kerja dan sumber daya manusia di sektor penerbangan.</p></div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="mitra-logo-item">
-                    <div><h6>DAPENDA</h6><p>Kolaborasi Dana Pensiun Angkasa Pura Indonesia (DAPENDA).</p></div>
-                </div>
-            </div>
-            @endforelse
+
         </div>
     </div>
 </section>
+
+@section('scripts')
+<script>
+(function () {
+    const PER_PAGE = 3;
+    let page = 0;
+
+    function render() {
+        const items = document.querySelectorAll('#mitraList .mitra-item');
+        const total = items.length;
+        const nav   = document.getElementById('mitraNav');
+
+        if (total <= PER_PAGE) { if (nav) nav.style.display = 'none'; return; }
+
+        items.forEach((el, i) => {
+            el.style.display = (i >= page * PER_PAGE && i < (page + 1) * PER_PAGE) ? '' : 'none';
+        });
+
+        document.getElementById('mitraPrev').disabled = page === 0;
+        document.getElementById('mitraNext').disabled = (page + 1) * PER_PAGE >= total;
+    }
+
+    window.mitraNav = function (dir) { page += dir; render(); };
+
+    document.addEventListener('DOMContentLoaded', render);
+})();
+</script>
+@endsection
 
 @endsection
