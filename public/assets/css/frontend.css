@@ -447,6 +447,9 @@ a { text-decoration: none; color: inherit; }
     padding: 24px;
     height: 100%;
 }
+.img-tentang:hover {
+    transform: translateY(-5px);
+}
 .struktur-card h5 { color: var(--navy); font-weight: 700; }
 
 /* helpers */
@@ -459,17 +462,18 @@ a { text-decoration: none; color: inherit; }
 /* Visi & Misi */
 .vm-block h3 { color: var(--navy); font-weight: 700; font-size: 1.4rem; margin-bottom: 12px; }
 .vm-block p, .vm-block div { font-size: 14px; line-height: 1.9; color: var(--text-light); }
-.vm-visual {
-    width: 150px; height: 150px;
-    margin: 0 auto;
-    border-radius: 50%;
-    display: flex; align-items: center; justify-content: center;
-    background: rgba(0,61,121,0.08);
-    color: var(--navy);
-    font-size: 64px;
-}
-.vm-visual-red { background: rgba(193,39,45,0.08); color: var(--red); }
+.text-visi {  width: 550px; margin-left: 200px; }
 
+.vm-visual {
+    width: 400px; height: 150px;
+    margin: 0 auto;
+     display: flex; align-items: center; justify-content: center;
+    background: rgba(0,61,121,0.08);
+    /* color: var(--navy); */
+    /* font-size: 64px; */
+}
+.vm-visual-red { background: rgba(193,39,45,0.08); color: var(--red); margin-left: 100px }
+.vm-visual:hover { transform: translateY(-5px); }
 /* Struktur Permodalan */
 .struktur-permodalan { padding: 70px 0; background: var(--gray-bg); }
 .donut-chart {

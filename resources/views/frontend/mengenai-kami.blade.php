@@ -6,7 +6,8 @@
     @if($banner?->image)
     <img src="{{ asset($banner->image) }}" alt="Mengenai Kami">
     @else
-    <div class="w-100 h-100" style="background: linear-gradient(135deg,#003d79,#005bb5);"></div>
+    <div class="w-100 h-100" style="background: linear-gradient(135deg,#003d79,#005bb5);  }
+"></div>
     @endif
     <div class="overlay"><h1>Mengenai Kami</h1></div>
 </div>
@@ -25,30 +26,27 @@
 
 {{-- ===================== TENTANG KAMI ===================== --}}
 <section class="about-content-section">
-    <div class="container" style="max-width:900px;">
+    <div class="container mb-4" style="max-width:900px;">
         <h2 class="text-center mb-4">Tentang Kami</h2>
 
         <div class="text-center about-text">
             @if($company?->about)
                 {!! $company->about !!}
-            @else
-                <p>PT Delta Angkasa Pratama (PT DAP) adalah perusahaan nasional yang didirikan pada 29 Juli 2004
-                berdasarkan Akta Pendirian No. 79 oleh Notaris Teddy Anwar, S.H., S.P.N., dan disahkan oleh
-                Menteri Hukum dan HAM RI melalui SK No. C-22852 HT.01.01.TH.2004 tanggal 10 September 2004.</p>
             @endif
         </div>
 
-        <div class="text-center my-4">
-            <img src="{{ $company?->image ? asset($company->image) : asset('assets/img/hero-bg.jpg') }}"
-                 alt="Tentang Kami" class="rounded-3 shadow-sm" style="max-width:560px; width:100%; height:auto;">
+        <div class="text-center my-4 img-tentang">
+            <img src="{{ asset('assets/img/material/mengenai-ptdap-01.png') }}"
+                 alt="Tentang Kami" class="" 
+                      style="width:100%;height:auto;transition:transform .3s ease;">
         </div>
 
-        <div class="text-center about-text">
+        <div class="text-center about-text mb-4">
             <p>PT DAP merupakan kolaborasi antara Dana Pensiun Angkasa Pura Indonesia (DAPENDA) dan Koperasi
-            Satya Ardhia (KSA) yang berkantor pusat di Gedung Sentra Medika Lt.2 Bandara Soekarno-Hatta, Tangerang.</p>
-            <p>Perusahaan ini bergerak di bidang jasa, perdagangan, konstruksi, transportasi, industri,
+            Satya Ardhia (KSA) yang berkantor pusat di Gedung Sentra Medika Lt.2 Bandara Soekarno-Hatta, Tangerang.Perusahaan ini bergerak di bidang jasa, perdagangan, konstruksi, transportasi, industri,
             percetakan, dan pertanian.</p>
         </div>
+        <br>
     </div>
 
     {{-- Visi & Misi --}}
@@ -56,28 +54,33 @@
         <div class="row g-4 align-items-center mb-4">
             <div class="col-md-7 order-2 order-md-1">
                 <div class="vm-block">
-                    <h3>Visi</h3>
-                    <p>{{ $company?->vision ?? 'Menjadi perusahaan nasional yang unggul, profesional, dan terpercaya dalam layanan jasa, pengelolaan aset, dan pengadaan tenaga kerja, yang mampu memberikan nilai tambah strategis bagi mitra dan bangsa.' }}</p>
+                    <div class="text-visi">
+                        <h3 class="text-center">Visi</h3>
+                    <p>{!!   $company?->vision ?? '' !!}</p>
+                    </div>
                 </div>
             </div>
             <div class="col-md-5 order-1 order-md-2 text-center">
-                <div class="vm-visual"><i class="ti ti-eye"></i></div>
+                <div class="vm-visual">
+                    <img src="{{ asset('assets/img/material/visi.png') }}"
+                 alt="Visi" class="" style="width:100%; height:auto;">
+                 </div>
             </div>
         </div>
 
-        <div class="row g-4 align-items-center">
+        <div class="row g-4 align-items-center mt-5">
             <div class="col-md-5 text-center">
-                <div class="vm-visual vm-visual-red"><i class="ti ti-target-arrow"></i></div>
+                <div class="vm-visual vm-visual-red">
+                    <img src="{{ asset('assets/img/material/misi.png') }}"
+                 alt="Visi" class="" style="width:100%; height:auto;">
+                 </div>
             </div>
             <div class="col-md-7">
                 <div class="vm-block">
+                    <div class="text-misi">
                     <h3>Misi</h3>
-                    @if($company?->mission)
-                        <div>{!! $company->mission !!}</div>
-                    @else
-                        <p>Menyediakan layanan jasa berkualitas melalui pengelolaan SDM yang profesional,
-                        berintegritas, dan kompeten.</p>
-                    @endif
+                    <p>{!!   $company?->mission ?? '' !!}</p>
+                    </div>
                 </div>
             </div>
         </div>
