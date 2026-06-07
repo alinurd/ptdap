@@ -19,8 +19,13 @@ yarn-error.log
 /.vscode
 /composer.lock
 **/.DS_Store
-resources/views/templateViewMaster/* 
-app/Console/Commands/MakeModule.php 
+resources/views/templateViewMaster/*
+app/Console/Commands/MakeModule.php
 doc/*
 node_modules
 Jenkinsfile
+README.md
+RECAP.md
+docker/nginx/logs/*
+setup-docker.sh
+.git-ftp.log
