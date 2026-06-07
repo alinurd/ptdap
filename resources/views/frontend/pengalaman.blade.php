@@ -43,9 +43,7 @@
         @endforelse
 
         {{-- Pagination --}}
-        <div class="d-flex justify-content-center mt-4">
-            {{ $pengalamans->links() }}
-        </div>
+        <div class="mt-3">{{ $pengalamans->links() }}</div>
     </div>
 </section>
 

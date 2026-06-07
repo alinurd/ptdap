@@ -88,7 +88,7 @@ class LanddingController extends Controller
 
     public function pengalaman()
     {
-        return $this->errors();
+        // return $this->errors();
         return view('frontend.pengalaman', [
             'setting'      => $this->setting(),
             'banner'       => $this->halamanBanner('pengalaman'),
@@ -98,7 +98,7 @@ class LanddingController extends Controller
 
     public function berita()
     {
-        return $this->errors();
+        // return $this->errors();
         return view('frontend.berita', [
             'setting'   => $this->setting(),
             'banner'    => $this->halamanBanner('berita'),
@@ -110,7 +110,7 @@ class LanddingController extends Controller
 
     public function beritaDetail($slug)
     {
-        return $this->errors();
+        // return $this->errors();
         return view('frontend.berita-detail', [
             'setting' => $this->setting(),
             'berita'  => Berita::where('slug', $slug)->where('status', 1)->firstOrFail(),
@@ -120,7 +120,7 @@ class LanddingController extends Controller
 
     public function hubungiKami()
     {
-        return $this->errors();
+        // return $this->errors();
         return view('frontend.hubungi-kami', [
             'setting' => $this->setting(),
             'banner'  => $this->halamanBanner('hubungi-kami'),
@@ -144,6 +144,6 @@ class LanddingController extends Controller
             'pesan'   => 'required|string|min:10',
         ]);
 
-        return response()->json(['status' => 'success', 'message' => 'Pesan berhasil dikirim. Tim kami akan segera menghubungi Anda.']);
+        return response()->json(['status' => 'error', 'message' => 'Pesan berhasil dikirim. Tim kami akan segera menghubungi Anda.']);
     }
 }

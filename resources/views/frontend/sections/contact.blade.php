@@ -12,7 +12,7 @@
                     <div class="icon"><i class="ti ti-map-pin"></i></div>
                     <div>
                         <h6>Lokasi</h6>
-                        <p>{{ $setting?->address ?? 'Gedung Sentra Medika Lt.2 Bandara Soekarno-Hatta' }}</p>
+                        <p>{!! $setting?->address ?? 'Gedung Sentra Medika Lt.2 Bandara Soekarno-Hatta' !!}</p>
                         @if($setting?->latitude && $setting?->longitude)
                         <div class="contact-map mt-2">
                             <iframe

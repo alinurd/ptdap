@@ -753,7 +753,7 @@ a { text-decoration: none; color: inherit; }
    PAGINATION
    ========================================== */
 .pagination .page-link { color: var(--navy); border-color: #ddd; }
-.pagination .page-item.active .page-link { background: var(--navy); border-color: var(--navy); }
+.pagination .page-item.active .page-link { background: var(--navy); border-color: var(--navy); color: #fff; }
 
 /* ==========================================
    MITRA STRATEGIS
