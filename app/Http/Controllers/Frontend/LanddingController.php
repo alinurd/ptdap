@@ -55,7 +55,7 @@ class LanddingController extends Controller
 
     public function organisasiManajemen()
     {
-         return $this->errors();
+        //  return $this->errors();
         return view('frontend.organisasi-manajemen', [
             'setting'  => $this->setting(),
             'banner'   => $this->halamanBanner('organisasi-manajemen'),
@@ -131,7 +131,7 @@ class LanddingController extends Controller
         ]);
     }
 
-    
+
     public function sendContact(Request $request)
     {
         $request->validate([

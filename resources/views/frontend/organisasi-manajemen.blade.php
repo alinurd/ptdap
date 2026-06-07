@@ -20,30 +20,37 @@
     </div>
 </div>
 
-<section class="py-5">
+<section class="py-3">
     <div class="container">
-        <div class="text-center mb-5">
+        <div class="text-center mb-2">
             <h2 class="section-title">Struktur Manajemen</h2>
-            <p class="section-subtitle">Tim profesional yang berdedikasi dalam memimpin PT Delta Angkasa Pratama.</p>
+            <p class="section-subtitle">Berikuit adalh stuktur Organisasi Pt., Delta Angkasa Pratama yang sudah disahkan oleh manajemen dari dewan direksi sampai dengan staf/karyawan yang membantui.</p>
         </div>
-        <div class="row g-4 justify-content-center">
-            @forelse($personils as $p)
-            <div class="col-6 col-md-4 col-lg-3">
-                <div class="personil-card">
-                    <img src="{{ $p->foto ? asset($p->foto) : asset('assets/img/noimage.jpg') }}"
-                         alt="{{ $p->nama }}">
-                    <h6>{{ $p->nama }}</h6>
-                    <small>{{ $p->jabatan }}</small>
-                    @if($p->deskripsi)
-                    <p class="mt-2 text-muted" style="font-size:12px;">{{ Str::limit($p->deskripsi, 80) }}</p>
-                    @endif
-                </div>
-            </div>
-            @empty
-            <p class="text-center text-muted">Belum ada data personil.</p>
-            @endforelse
+        <div class="row  justify-content-center">
+            <img src="{{asset('assets/img/material/struktur.jpeg') }}" alt="struktur">
         </div>
     </div>
+</section>
+
+{{-- ===================== BIDANG USAHA ===================== --}}
+<section class="bidang-usaha-section">
+    <center>
+        <div class="container">
+        <div class="" style="background-color: #e7e5e5af">
+            <div class="row g-0 align-items-end">
+                <div class="col-md-4 bidang-img-col">
+                    <img src="{{ asset('assets/img/material/MITRA-STRATEGIS/mengenai-ptdap-10.png') }}" alt="Sepatah Kata" class="bidang-usaha-img">
+                </div>
+                <div class="col-md-8 bidang-text-col">
+                    <h3>Sepatah Kata</h3>
+                    <div class="bidang-text-scroll">
+                        <p>A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </center>
 </section>
 
 @endsection

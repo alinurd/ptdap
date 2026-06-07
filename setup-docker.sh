@@ -15,8 +15,37 @@ echo " Folder: $PROJECT_DIR"
 echo "========================================"
 echo ""
 
-# --- Tanya port ---
-read -p "Port nginx (contoh: 8010): " NGINX_PORT
+# --- Auto-detect port tersedia ---
+# Infra memakai 8001-8003, project mulai dari 8004
+echo "Mencari port yang tersedia..."
+PORT_START=8004
+NGINX_PORT=""
+
+for PORT in $(seq $PORT_START 8099); do
+    IN_USE=$(docker ps --format '{{.Ports}}' | grep -o "0\.0\.0\.0:${PORT}->" | head -1)
+    SYS_USE=$(ss -tlnp 2>/dev/null | grep ":${PORT} " | head -1)
+    if [ -z "$IN_USE" ] && [ -z "$SYS_USE" ]; then
+        NGINX_PORT=$PORT
+        break
+    fi
+done
+
+if [ -z "$NGINX_PORT" ]; then
+    echo "[!] Tidak ada port tersedia di range 8004-8099"
+    exit 1
+fi
+
+echo ""
+echo "  Port yang sudah dipakai:"
+docker ps --format '{{.Names}} -> {{.Ports}}' | grep "0.0.0.0:8" | sort || true
+echo ""
+echo "  Rekomendasi port: $NGINX_PORT"
+read -p "  Pakai port $NGINX_PORT? (Enter=ya, atau ketik port lain): " PORT_INPUT
+if [ -n "$PORT_INPUT" ]; then
+    NGINX_PORT=$PORT_INPUT
+fi
+echo ""
+
 read -p "Nama database: " DB_NAME
 read -p "Password MySQL root: " DB_PASS
 echo ""

@@ -7,7 +7,7 @@ services:
     container_name: ptdap-nginx
     restart: unless-stopped
     ports:
-      - "8001:80"
+      - "8004:80"
     volumes:
       - ./:/var/www/html:ro
       - ./docker/nginx/default.conf:/etc/nginx/conf.d/default.conf:ro
