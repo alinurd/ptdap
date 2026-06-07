@@ -65,7 +65,7 @@ class LanddingController extends Controller
 
     public function sertifikasi()
     {
-        return $this->errors();
+        // return $this->errors();
         return view('frontend.sertifikasi', [
             'setting' => $this->setting(),
             'banner'  => $this->halamanBanner('sertifikasi'),
