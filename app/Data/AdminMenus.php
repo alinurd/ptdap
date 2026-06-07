@@ -42,8 +42,7 @@ class AdminMenus
                             ['route' => 'admin.master.customer.index',        'label' => 'Mitra Strategis',    'icon' => 'icon-be-10.png'],
                             ['route' => 'admin.master.pengalaman.index',      'label' => 'Pengalaman Kami',    'icon' => 'icon-be-23.png'],
                             ['route' => 'admin.master.personil.index',        'label' => 'Personil Manajemen', 'icon' => 'icon-be-22.png'],
-                            ['route' => 'admin.master.iso.index',             'label' => 'Sertifikasi',        'icon' => 'icon-be-17.png'],
-                        ],
+                         ],
                     ],
                     [
                         'title'        => 'Dokumen',

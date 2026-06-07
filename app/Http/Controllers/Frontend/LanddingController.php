@@ -10,7 +10,8 @@ use App\Models\Master\Berita;
 use App\Models\Master\BisnisKategori;
 use App\Models\Master\Company;
 use App\Models\Master\Customer;
-use App\Models\Master\Iso;
+use App\Models\Master\Dokumen;
+use App\Models\Master\DokumenKategori;
 use App\Models\Master\Pengalaman;
 use App\Models\Master\Personil;
 use Illuminate\Http\Request;
@@ -65,11 +66,13 @@ class LanddingController extends Controller
 
     public function sertifikasi()
     {
-        // return $this->errors();
         return view('frontend.sertifikasi', [
-            'setting' => $this->setting(),
-            'banner'  => $this->halamanBanner('sertifikasi'),
-            'isos'    => Iso::where('status', 1)->orderBy('sort')->get(),
+            'setting'   => $this->setting(),
+            'banner'    => $this->halamanBanner('sertifikasi'),
+            'kategoris' => DokumenKategori::where('status', 1)
+                            ->with(['dokumens' => fn($q) => $q->where('status', 1)->orderBy('sort')])
+                            ->orderBy('sort')
+                            ->get(),
         ]);
     }
 

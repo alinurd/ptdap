@@ -31,34 +31,27 @@
         <label for="deskripsi" class="form-label">Deskripsi</label>
         <textarea name="deskripsi" id="deskripsi" class="form-control"></textarea>
     </div>
-    <div class="row g-2 mb-3">
-        <div class="col-md-6 col-12">
-            <div class="border rounded p-2">
-                <label class="form-label mb-1">Thumbnail / Cover</label>
-                <div id="holder" class="mb-2 text-center">
-                    <img src="{{ asset('assets/img/noimage.jpg') }}" style="height:80px;" alt="Cover">
+     <div class="mb-3">
+        <div class="border rounded p-2">
+            <label class="form-label mb-1">Gambar</label>
+            <div class="d-flex flex-column flex-md-row justify-content-evenly align-items-center">
+                <div id="holder" class="mb-1 mb-md-0">
+                    <img src="{{ asset('assets/img/noimage.jpg') }}" style="height:80px;" alt="Gambar">
                 </div>
-                <div class="input-group">
-                    <a id="lfm" data-input="thumbnail" data-preview="holder" class="btn btn-primary btn-sm text-white">
-                        <i class="tf-icons ti ti-photo"></i> Pilih Gambar
-                    </a>
-                    <input id="thumbnail" class="form-control bg-secondary-subtle" type="text" name="image" readonly>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-6 col-12">
-            <div class="border rounded p-2">
-                <label class="form-label mb-1">File Dokumen (PDF/Doc)</label>
-                <div class="mb-2"><small class="text-muted" id="file-name-preview">Belum ada file dipilih</small></div>
-                <div class="input-group">
-                    <a id="lfmfiles" data-input="file-input" class="btn btn-secondary btn-sm text-white">
-                        <i class="tf-icons ti ti-file-upload"></i> Pilih File
-                    </a>
-                    <input id="file-input" class="form-control bg-secondary-subtle" type="text" name="file" readonly>
+                <div>
+                    <small class="text-muted">Disarankan ukuran 100 x 100 pixel</small>
+                    <div class="input-group mt-1">
+                        <a id="lfm" data-input="thumbnail" data-preview="holder" class="btn btn-primary text-white">
+                            <i class="menu-icon tf-icons ti ti-photo"></i> Pilih Gambar
+                        </a>
+                        <input id="thumbnail" class="form-control bg-secondary-subtle" type="text" name="image" readonly>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+
+
     <div class="row">
         <div class="col-12">
             <div class="btn-group float-end" role="group">
