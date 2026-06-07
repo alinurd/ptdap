@@ -52,5 +52,76 @@
     </div>
     </center>
 </section>
+<section class="py-3">
+    <div class="container">
+
+        <div class="text-center mb-2">
+            <h2 class="section-title">Personil Management</h2>
+            <p class="section-subtitle">
+                A common form of Lorem ipsum reads...
+            </p>
+        </div>
+
+        @if($personils->isNotEmpty())
+
+            <div id="personilCarousel" class="carousel slide" data-bs-ride="false">
+
+                <div class="carousel-inner">
+
+                    @php
+                        $chunks = $personils->chunk(3);
+                    @endphp
+
+                    @foreach($chunks as $i => $chunk)
+                    <div class="carousel-item {{ $i === 0 ? 'active' : '' }}">
+                        <div class="row g-4 justify-content-center">
+
+                            @foreach($chunk as $p)
+                            <div class="col-md-4">
+                                <div class="personil-card h-100">
+
+                                    <img src="{{ $p->foto ? asset($p->foto) : asset('assets/img/noimage.jpg') }}"
+                                         alt="{{ $p->nama }}">
+
+                                    <h6>{{ $p->jabatan }}</h6>
+                                    <small>{{ $p->nama }}</small>
+
+
+                                    @if($p->deskripsi)
+                                    <p class="mt-2 text-muted" style="font-size:12px;">
+                                        {{ Str::limit($p->deskripsi, 80) }}
+                                    </p>
+                                    @endif
+
+                                </div>
+                            </div>
+                            @endforeach
+
+                        </div>
+                    </div>
+                    @endforeach
+
+                </div>
+
+                @if($chunks->count() > 1)
+                <div class="carousel-indicators position-relative mt-3">
+                    @foreach($chunks as $i => $chunk)
+                    <button
+                        type="button"
+                        data-bs-target="#personilCarousel"
+                        data-bs-slide-to="{{ $i }}"
+                        class="{{ $i === 0 ? 'active' : '' }}"
+                        style="background:#003d79;width:10px;height:10px;border-radius:50%;border:none;opacity:.4;">
+                    </button>
+                    @endforeach
+                </div>
+                @endif
+
+            </div>
+
+        @endif
+
+    </div>
+</section>
 
 @endsection
