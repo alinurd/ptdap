@@ -48,7 +48,7 @@ class LanddingController extends Controller
     {
         return view('frontend.mengenai-kami', [
             'setting'   => $this->setting(),
-            'banner'    => $this->halamanBanner('mengenai-kami'),
+            'banner'    => $this->halamanBanner('mengenai_kami'),
             'company'   => Company::where('status', 1)->first(),
             'customers' => Customer::where('status', 1)->orderBy('sort')->get(),
         ]);
@@ -59,7 +59,7 @@ class LanddingController extends Controller
         //  return $this->errors();
         return view('frontend.organisasi-manajemen', [
             'setting'  => $this->setting(),
-            'banner'   => $this->halamanBanner('organisasi-manajemen'),
+            'banner'   => $this->halamanBanner('organisasi_manajemen'),
             'personils' => Personil::where('status', 1)->orderBy('sort')->get(),
         ]);
     }
@@ -78,7 +78,7 @@ class LanddingController extends Controller
 
     public function produkLayanan()
     {
-        return $this->errors();
+        // return $this->errors();
         return view('frontend.produk-layanan', [
             'setting' => $this->setting(),
             'banner'  => $this->halamanBanner('produk-layanan'),
@@ -123,7 +123,7 @@ class LanddingController extends Controller
         // return $this->errors();
         return view('frontend.hubungi-kami', [
             'setting' => $this->setting(),
-            'banner'  => $this->halamanBanner('hubungi-kami'),
+            'banner'  => $this->halamanBanner('hubungi_kami'),
         ]);
     }
     public function errors()

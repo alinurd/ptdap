@@ -20,7 +20,7 @@
     </div>
 </div>
 
-<section class="py-3">
+<section class="py-5 ">
     <div class="container">
         <div class="text-center mb-2">
             <h2 class="section-title">Struktur Manajemen</h2>
@@ -33,15 +33,18 @@
 </section>
 
 {{-- ===================== BIDANG USAHA ===================== --}}
-<section class="bidang-usaha-section">
+<section class="bidang-usaha-sectionx" >
     <center>
-        <div class="container">
-        <div class="" style="background-color: #e7e5e5af">
-            <div class="row g-0 align-items-end">
-                <div class="col-md-4 bidang-img-col">
-                    <img src="{{ asset('assets/img/material/MITRA-STRATEGIS/mengenai-ptdap-10.png') }}" alt="Sepatah Kata" class="bidang-usaha-img">
+         <div class=""style="    max-width: 50%; background-color: #e7e5e5af;" >
+            <div class="row g-0 align-items-end"
+">
+                <div class="col-md-4 p-2 " >
+                    <img src="{{ asset('assets/img/material/MITRA-STRATEGIS/mengenai-ptdap-10.png') }}" alt="Sepatah Kata" class="" style="width: 100%; height: auto;  display: block;">
                 </div>
-                <div class="col-md-8 bidang-text-col">
+                <div class="col-md-8 " style="
+                        padding: 30px 10px; display: flex;  width: 500px; flex-direction: column;
+    justify-content: center;
+    align-self: center;">
                     <h3>Sepatah Kata</h3>
                     <div class="bidang-text-scroll">
                         <p>A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
@@ -52,14 +55,11 @@
     </div>
     </center>
 </section>
-<section class="py-3">
+<section class="py-3 mt-4">
     <div class="container">
 
         <div class="text-center mb-2">
             <h2 class="section-title">Personil Management</h2>
-            <p class="section-subtitle">
-                A common form of Lorem ipsum reads...
-            </p>
         </div>
 
         @if($personils->isNotEmpty())
@@ -85,13 +85,6 @@
 
                                     <h6>{{ $p->jabatan }}</h6>
                                     <small>{{ $p->nama }}</small>
-
-
-                                    @if($p->deskripsi)
-                                    <p class="mt-2 text-muted" style="font-size:12px;">
-                                        {{ Str::limit($p->deskripsi, 80) }}
-                                    </p>
-                                    @endif
 
                                 </div>
                             </div>

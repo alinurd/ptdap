@@ -37,7 +37,7 @@
 
         <div class="text-center my-4 img-tentang">
             <img src="{{ asset('assets/img/material/mengenai-ptdap-01.png') }}"
-                 alt="Tentang Kami" class="" 
+                 alt="Tentang Kami" class=""
                       style="width:100%;height:auto;transition:transform .3s ease;">
         </div>
 
@@ -50,12 +50,12 @@
     </div>
 
     {{-- Visi & Misi --}}
-    <div class="container mt-5">
-        <div class="row g-4 align-items-center mb-4">
+    <div class="container mt-5 mb-5 p-3 ">
+        <div class="row g-2 align-items-center mb-4">
             <div class="col-md-7 order-2 order-md-1">
                 <div class="vm-block">
                     <div class="text-visi">
-                        <h3 class="text-center">Visi</h3>
+                        <h3 class="text-center ">Visi</h3>
                     <p>{!!   $company?->vision ?? '' !!}</p>
                     </div>
                 </div>
@@ -68,18 +68,21 @@
             </div>
         </div>
 
-        <div class="row g-4 align-items-center mt-5">
+        <div class="row g-2 align-items-center mt-4">
             <div class="col-md-5 text-center">
-                <div class="vm-visual vm-visual-red">
+                <div class="  vm-visual-red">
                     <img src="{{ asset('assets/img/material/misi.png') }}"
                  alt="Visi" class="" style="width:100%; height:auto;">
                  </div>
             </div>
             <div class="col-md-7">
-                <div class="vm-block">
-                    <div class="text-misi">
-                    <h3>Misi</h3>
-                    <p>{!!   $company?->mission ?? '' !!}</p>
+                <div class="vm-block" >
+                    <div class="text-misi" >
+                    <h3 class="text-center" >Misi</h3>
+                    <div style="margin-left: 30px">
+                    <p >{!!   $company?->mission ?? '' !!}</p>
+
+                    </div>
                     </div>
                 </div>
             </div>
@@ -98,7 +101,7 @@
         <div class="row g-4 align-items-center">
             <div class="col-md-6 text-center">
                 <img src="{{ asset('assets/img/material/mengenai-ptdap-04.png') }}"
-                 alt="Tentang Kami" class="" 
+                 alt="Tentang Kami" class=""
                       style="width:70%;height:auto;transition:transform .3s ease;">
             </div>
             <div class="col-md-6">
@@ -124,7 +127,7 @@
                         </div>
                     </div>
                     </div>
-                    
+
                     <hr>
                     <div class="saham-list">
                         <div class="saham-item">

@@ -26,10 +26,10 @@
 </div>
 
 {{-- Intro --}}
-<section class="py-5 text-center">
+<section class="py-5 text-center about-content-section">
     <div class="container" style="max-width:720px;">
         <h2 class="sert-main-title">Sertifikasi dan Penghargaan</h2>
-        <p class="sert-main-sub mt-2">
+        <p class="about-text mt-2" style="">
             Berikut ini adalah sertifikasi dan penghargaan yang sudah
             diraih oleh PT. Delta Angkasa Pratama karena sangat dipercaya menjadi
             mitra usaha bagi perusahaan/organisasi.
@@ -50,16 +50,16 @@
 {{-- ===== Legalitas Perusahaan ===== --}}
 <section class="legalitas-sert-section py-5">
     <div class="container">
-        <div class="row align-items-center g-5">
-            <div class="col-md-6">
+        <div class="row align-items-center" style="margin-left:200px">
+            <div class="col-md-7">
                 <h2 class="sert-section-title mb-4">{{ $kategori->nama }}</h2>
                 @if($dokumens->first()?->deskripsi)
                 <blockquote class="sert-legalitas-quote">
-                    "{{ $dokumens->first()->deskripsi }}"
+                    "{!!$dokumens->first()->deskripsi !!}"
                 </blockquote>
                 @endif
             </div>
-            <div class="col-md-6 text-center">
+            <div class="col-md-5 ">
                 @if($dokumens->first()?->image)
                 <img src="{{ asset($dokumens->first()->image) }}"
                      alt="{{ $dokumens->first()->judul }}"
@@ -85,14 +85,15 @@
                         @foreach($chunkItems as $dok)
                         <div class="col-6 col-md-4">
                             <div class="sert-card">
-                                <div class="sert-card-img-wrap">
-                                    <img src="{{ $dok->image ? asset($dok->image) : asset('assets/img/noimage.jpg') }}"
-                                         alt="{{ $dok->judul }}">
-                                </div>
+
                                 <div class="sert-card-body">
+
+<img src="{{ $dok->image ? asset($dok->image) : asset('assets/img/noimage.jpg') }}"
+                                         alt="{{ $dok->judul }}" style="width: 90%" class="sert-card-img-wrap mb-2">
+
                                     <div class="sert-card-title">{{ $dok->judul }}</div>
                                     @if($dok->deskripsi)
-                                    <div class="sert-card-sub">{{ $dok->deskripsi }}</div>
+                                    <div class="sert-card-sub">{!! $dok->deskripsi !!}</div>
                                     @endif
                                 </div>
                             </div>
@@ -149,21 +150,22 @@
 
 /* Carousel Card */
 .sert-card {
-    border: 1px solid #e4e8ee;
+    /* border: 1px solid #e4e8ee; */
     border-radius: 10px;
     overflow: hidden;
     background: #fff;
     text-align: center;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.06);
-    transition: box-shadow 0.2s, transform 0.2s;
+    /* box-shadow: 0 2px 10px rgba(0,0,0,0.06); */
+    /* transition: box-shadow 0.2s, transform 0.2s; */
 }
 .sert-card:hover {
-    box-shadow: 0 6px 24px rgba(0,0,0,0.12);
+    /* box-shadow: 0 6px 24px rgba(0,0,0,0.12); */
     transform: translateY(-3px);
 }
 .sert-card-img-wrap {
-    background: #f8f9fb;
-    padding: 16px;
+     border: 1px solid #e4e8ee;
+    /* background: #f8f9fb; */
+    /* padding: 16px; */
     min-height: 190px;
     display: flex;
     align-items: center;
@@ -178,6 +180,7 @@
     padding: 12px 14px 16px;
 }
 .sert-card-title {
+    padding-top:
     font-size: 14px;
     font-weight: 600;
     color: #222;

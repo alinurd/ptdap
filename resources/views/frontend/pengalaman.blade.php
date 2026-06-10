@@ -19,9 +19,9 @@
     </div>
 </div>
 
-<section class="py-5">
+<section class="py-5 about-content-section">
     <div class="container">
-        <div class="text-center mb-2">
+        <div class="text-center mb-5">
             <h2 class="section-title">Pengalaman dan Porto Folio</h2>
             <p class="section-subtitle">Dalam setiap inovasi yang sukses, ada individu dan tim yang menggerakkan prosesnya.</p>
         </div>
