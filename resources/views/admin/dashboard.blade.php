@@ -4,6 +4,8 @@
 
 @section('content')
 
+<div class="row">
+    <div class="col-md-9">
 @foreach (AdminMenus::sections() as $section)
   @foreach ($section['groups'] as $group)
   <div class="mb-4">
@@ -27,6 +29,28 @@
   </div>
   @endforeach
 @endforeach
+</div>
+    <div class="col-md-3">
+        <div class="card mb-4">
+            <div class="card-body">
+                <h5 class="fw-bold mb-4">Hi, {{ auth()->user()->name }} &#x1F44B;</h5>
+
+                @foreach ($stats as $group)
+                <div class="mb-3">
+                    <p class="fw-semibold mb-2">{{ $group['title'] }}</p>
+                    @foreach ($group['items'] as $item)
+                    <div class="d-flex justify-content-between py-1  border-bottom" >
+                        <span class="text-muted small" style="margin-left: 20px;">{{ $item['label'] }}</span>
+                        <span class="text-muted small">{{ $item['count'] }}</span>
+                    </div>
+                    @endforeach
+                </div>
+                @endforeach
+            </div>
+        </div>
+    </div>
+</div>
+</div>
 
 @endsection
 
