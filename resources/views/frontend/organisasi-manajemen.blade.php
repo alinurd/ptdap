@@ -27,15 +27,15 @@
             <p class="section-subtitle">Berikuit adalh stuktur Organisasi Pt., Delta Angkasa Pratama yang sudah disahkan oleh manajemen dari dewan direksi sampai dengan staf/karyawan yang membantui.</p>
         </div>
         <div class="row  justify-content-center">
-            <img src="{{asset('assets/img/material/struktur.jpeg') }}" alt="struktur">
+            <img src="{{asset('assets/img/material/struktur.jpeg') }}" style="width: 95%" alt="struktur">
         </div>
     </div>
 </section>
 
 {{-- ===================== BIDANG USAHA ===================== --}}
-<section class="bidang-usaha-sectionx" >
+<section class="bidang-usaha-sectionx  mt-3" >
     <center>
-         <div class=""style="    max-width: 50%; background-color: #e7e5e5af;" >
+         <div class=""style="    max-width: 50%; " >
             <div class="row g-0 align-items-end"
 ">
                 <div class="col-md-4 p-2 " >
@@ -55,6 +55,7 @@
     </div>
     </center>
 </section>
+<br><br>
 <section class="py-3 mt-4">
     <div class="container">
 

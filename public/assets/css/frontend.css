@@ -12,7 +12,7 @@
     --text-light: #666666;
     --white:   #ffffff;
 }
-
+h3 { color: var(--navy); font-weight: 700; margin-bottom: 12px; }
 * { box-sizing: border-box; }
 
 body {
@@ -29,8 +29,8 @@ a { text-decoration: none; color: inherit; }
    TOPBAR
    ========================================== */
 .topbar {
-    background: var(--navy);
-    color: #ffffff;
+    color: var(--navy);
+    background: #ffffff;
     font-size: 12px;
     padding: 6px 0;
 }
@@ -48,12 +48,12 @@ a { text-decoration: none; color: inherit; }
     justify-content: center;
     width: 26px; height: 26px;
     border-radius: 50%;
-    background: rgba(255,255,255,0.1);
+    background: var(--navy);
     color: #fff;
     font-size: 12px;
     transition: background 0.2s;
 }
-.topbar .social-link:hover { background: var(--navy); }
+.topbar .social-link:hover { background: var(--white); color: var(--navy); }
 
 /* ==========================================
    NAVBAR
@@ -170,7 +170,7 @@ a { text-decoration: none; color: inherit; }
    SECTION COMMONS
    ========================================== */
 .section-title {
-    font-size: 2.1rem;
+    font-size: 1.75rem;
     font-weight: 700;
     color: var(--navy);
     margin-bottom: 8px;
@@ -206,7 +206,7 @@ a { text-decoration: none; color: inherit; }
     flex-direction: column;
     justify-content: center;
 }
-.about-home .text-col h2 { font-size: 2.1rem; font-weight: 700; margin-bottom: 16px; }
+.about-home .text-col h2 { font-size: 1.75rem; font-weight: 700; margin-bottom: 16px; }
 .about-home .text-col p  { font-size: 18px; line-height: 1.7; opacity: 0.92; }
 .about-home .btn-outline-white {
     display: inline-block;
@@ -436,7 +436,7 @@ a { text-decoration: none; color: inherit; }
    PAGE: MENGENAI KAMI
    ========================================== */
 .about-content-section { padding: 60px 0; }
-.about-content-section h2 { color: var(--navy); font-weight: 700; font-size: 2.1rem; }
+.about-content-section h2 { color: var(--navy); font-weight: 700; font-size: 1.75rem; }
 .about-content-section p  { font-size: 18px; line-height: 1.8; color: var(--text-light); }
 .struktur-card {
     background: var(--gray-bg);
@@ -459,25 +459,27 @@ a { text-decoration: none; color: inherit; }
 /* Visi & Misi */
 .vm-block h3 { color: var(--navy); font-weight: 700; font-size: 1.4rem; margin-bottom: 12px; }
 .vm-block p, .vm-block div { font-size: 18px; line-height: 1.9; color: var(--text-light); }
-.text-visi { width: 100%; }
-.text-visi {  width: 550px; margin-left: 150px; text-align: center;}
+
+ .vm-block-visi{margin-right: 15%; margin-left: 20%}
+
+
+.vm-block-misi{margin-left: 20%; margin-right: 15%; }
 
 .vm-visual {
-    width: 100%; max-width: 400px; height: auto; min-height: 150px;
+    width: 90%; max-width: 400px; height: auto; min-height: 150px;
     margin-right: 200px;
     display: flex; align-items: center; justify-content: center;
     background: rgba(0,61,121,0.08);
 }
 .vm-visual-red {
-    width: 100%; max-width: 400px; height: auto; min-height: 150px;
+    width: 90%; max-width: 400px; height: auto; min-height: 150px;
     margin-top: 30px;
     margin-left: 150px;
 
      display: flex; align-items: center; justify-content: center;
  }
 .vm-visual-red:hover { transform: translateY(-5px); }
-.text-misi{text-align: center;     margin-right: 150px;
-}
+
 
 .vm-visual:hover { transform: translateY(-5px); }
 

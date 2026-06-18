@@ -27,7 +27,7 @@
 {{-- ===================== TENTANG KAMI ===================== --}}
 <section class="about-content-section">
     <div class="container mb-4" style="max-width:900px;">
-        <h2 class="text-center mb-4">Tentang Kami</h2>
+        <h3 class="text-center mb-4">Tentang Kami</h3>
 
         <div class="text-center about-text">
             @if($company?->about)
@@ -53,7 +53,7 @@
     <div class="container mt-5 mb-5 p-3 ">
         <div class="row g-2 align-items-center mb-4">
             <div class="col-md-7 order-2 order-md-1">
-                <div class="vm-block">
+                <div class="vm-block-visi">
                     <div class="text-visi">
                         <h3 class="text-center ">Visi</h3>
                     <p>{!!   $company?->vision ?? '' !!}</p>
@@ -69,17 +69,17 @@
         </div>
 
         <div class="row g-2 align-items-center mt-4">
-            <div class="col-md-5 text-center">
+            <div class="col-md-5 ">
                 <div class="  vm-visual-red">
                     <img src="{{ asset('assets/img/material/misi.png') }}"
                  alt="Visi" class="" style="width:100%; height:auto;">
                  </div>
             </div>
-            <div class="col-md-7">
-                <div class="vm-block" >
+            <div class="col-md-7 order-2 order-md-1">
+                <div class="vm-block-misi" >
                     <div class="text-misi" >
                     <h3 class="text-center" >Misi</h3>
-                    <div style="margin-left: 30px">
+                    <div style="">
                     <p >{!!   $company?->mission ?? '' !!}</p>
 
                     </div>
@@ -97,7 +97,7 @@
         background-position: center 100%;
              min-height:400px;">
     <div class="container">
-        <h2 class="section-title text-center mb-5">Struktur Permodalan</h2>
+        <h3 class="section-title text-center mb-5">Struktur Permodalan</h3>
         <div class="row g-4 align-items-center">
             <div class="col-md-6 text-center">
                 <img src="{{ asset('assets/img/material/mengenai-ptdap-04.png') }}"

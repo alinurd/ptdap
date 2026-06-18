@@ -2,7 +2,7 @@
 <section class="bisnis-section">
     <div class="container">
         <div class="text-center mb-4">
-            <h2 class="section-title">Perusahaan Kami Bergerak di Bidang</h2>
+            <h3 class="section-title">Perusahaan Kami Bergerak di Bidang</h3>
         </div>
 
         @if($bisnis->isNotEmpty())

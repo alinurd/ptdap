@@ -7,7 +7,7 @@
         </div>
         {{-- Teks kanan --}}
         <div class="col-md-6 text-col text-center">
-            <h2>Mengenai Kami</h2>
+            <h3 style="color: #ffff">Mengenai Kami</h3>
             <p>{{ Str::limit(strip_tags($company?->about ?? ''), 10000) }}</p>
    <center>
              <a href="{{ route('guest.mengenai-kami') }}"
