@@ -63,7 +63,8 @@
             <div class="col-md-5 order-1 order-md-2 text-center">
                 <div class="vm-visual">
                     <img src="{{ asset('assets/img/material/visi.png') }}"
-                 alt="Visi" class="" style="width:100%; height:auto;">
+                 alt="Visi" cl
+                    ass="" style="width:100%; height:auto;">
                  </div>
             </div>
         </div>
@@ -94,8 +95,7 @@
 <section class="struktur-permodalan" style="
         background-image:url('{{ asset('assets/img/material/home-ptdap-02.jpg') }}');
         background-size:cover;
-        background-position: center 100%;
-             min-height:400px;">
+        background-position: center 100%;">
     <div class="container">
         <h3 class="section-title text-center mb-5">Struktur Permodalan</h3>
         <div class="row g-4 align-items-center">
@@ -119,7 +119,7 @@
                             <div class="stat-label">Rp. 23.227.000.000,-</div>
                         </div>
                     </div>
-                    <div class="stat-row" style="margin-left: 60px">
+                    <div class="stat-row saham-indent">
                         <img src="{{ asset('assets/img/material/mengenai-ptdap-06.png') }}" alt="Tentang Kami" class="" style="width:35px;height:auto;transition:transform .3s ease;">
                         <div class="flex-grow-1">
                             <span class="stat-pct text-navy">KSA</span>

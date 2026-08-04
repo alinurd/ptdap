@@ -32,28 +32,37 @@
     </div>
 </section>
 
-{{-- ===================== BIDANG USAHA ===================== --}}
-<section class="bidang-usaha-sectionx  mt-3" >
-    <center>
-         <div class=""style="    max-width: 50%; " >
-            <div class="row g-0 align-items-end"
-">
-                <div class="col-md-4 p-2 " >
-                    <img src="{{ asset('assets/img/material/MITRA-STRATEGIS/mengenai-ptdap-10.png') }}" alt="Sepatah Kata" class="" style="width: 100%; height: auto;  display: block;">
+{{-- ===================== SEPATAH KATA ===================== --}}
+<section class="mt-3">
+    <div class="container">
+        <div class="sepatah-kata-card">
+            <div class="row g-0 align-items-stretch">
+                <div class="col-md-4 sepatah-kata-img-col">
+                    <img src="{{ asset('assets/img/material/MITRA-STRATEGIS/mengenai-ptdap-10.png') }}" alt="Sepatah Kata">
                 </div>
-                <div class="col-md-8 " style="
-                        padding: 30px 10px; display: flex;  width: 500px; flex-direction: column;
-    justify-content: center;
-    align-self: center;">
-                    <h3>Sepatah Kata</h3>
-                    <div class="bidang-text-scroll">
-                        <p>A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                <div class="col-md-8 sepatah-kata-text-col">
+                    <h3>Selamat datang di website resmi PT Delta Angkasa Pratama.</h3>
+                    <div class="bidang-text-scroll" style="max-height: 200px">
+                        <p>
+Puji syukur kami panjatkan ke hadirat Tuhan Yang Maha Esa atas kepercayaan dan dukungan yang terus diberikan kepada PT Delta Angkasa Pratama.
+Sebagai perusahaan yang bergerak di bidang General Trading & Services, kami berkomitmen untuk menjadi mitra bisnis yang profesional, terpercaya, dan berorientasi pada kepuasan pelanggan. Kami meyakini bahwa keberhasilan sebuah perusahaan tidak hanya diukur dari pertumbuhan bisnis, tetapi juga dari kemampuan membangun hubungan jangka panjang yang dilandasi integritas, kualitas layanan, dan nilai tambah bagi seluruh pemangku kepentingan.
+Di tengah dinamika dunia usaha yang terus berkembang, PT Delta Angkasa Pratama senantiasa beradaptasi melalui inovasi, peningkatan kompetensi sumber daya manusia, serta penerapan tata kelola perusahaan yang baik (Good Corporate Governance). Dengan semangat tersebut, kami menghadirkan solusi yang efektif, efisien, dan sesuai dengan kebutuhan pelanggan di berbagai sektor industri.
+Kami percaya bahwa kepercayaan adalah aset yang paling berharga. Oleh karena itu, setiap layanan yang kami berikan dilaksanakan dengan mengedepankan profesionalisme, ketepatan waktu, keselamatan kerja, serta komitmen terhadap kualitas terbaik.
+Ke depan, PT Delta Angkasa Pratama akan terus memperluas jaringan bisnis, meningkatkan kapabilitas perusahaan, dan membangun kolaborasi yang saling menguntungkan dengan para mitra, pelanggan, serta seluruh pemangku kepentingan. Kami bertekad menjadi perusahaan nasional yang mampu memberikan kontribusi nyata bagi pertumbuhan ekonomi Indonesia.
+Atas nama seluruh jajaran manajemen dan karyawan PT Delta Angkasa Pratama, saya mengucapkan terima kasih atas kepercayaan yang telah diberikan. Semoga website ini menjadi sarana informasi, komunikasi, dan awal dari kerja sama yang berkelanjutan.
+Bersama , Bertumbuh, Berinovasi, dan menciptakan nilai untuk masa depan yang lebih baik.
+<br>
+<center>Hormat kami,<br>
+MUHAMMAD URRASYIDIN<br><br>
+
+DIREKTUR UTAMA<br>
+PT DELTA ANGKASA PRATAMA</center>
+</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    </center>
 </section>
 <br><br>
 <section class="py-3 mt-4">

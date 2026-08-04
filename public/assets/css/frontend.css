@@ -484,7 +484,8 @@ a { text-decoration: none; color: inherit; }
 .vm-visual:hover { transform: translateY(-5px); }
 
  /* Struktur Permodalan */
-.struktur-permodalan { padding: 70px 0; background: var(--gray-bg); }
+.struktur-permodalan { padding: 70px 0; background: var(--gray-bg); min-height: 400px; }
+.saham-indent { margin-left: 60px; }
 .donut-chart {
     width: 240px; height: 240px;
     border-radius: 50%;
@@ -569,6 +570,39 @@ a { text-decoration: none; color: inherit; }
 .bidang-usaha-card p { font-size: 18px; line-height: 1.9; color: #5a4a2a; margin-bottom: 10px; }
 .bidang-icon { font-size: 110px; color: var(--navy); opacity: 0.85; }
 
+/* Sepatah Kata */
+.sepatah-kata-card {
+    background: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+    border: 5px solid #c9c9c9;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.sepatah-kata-img-col { padding: 0; }
+.sepatah-kata-img-col img {
+    width: 100%;
+    height: 100%;
+    max-height: 340px;
+    object-fit: cover;
+    object-position: top center;
+    display: block;
+}
+.sepatah-kata-text-col {
+    padding: 28px 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.sepatah-kata-text-col h3 { color: var(--navy); font-weight: 700; font-size: 1.25rem; margin-bottom: 12px; }
+.sepatah-kata-text-col p { font-size: 15px; line-height: 1.75; color: #444; margin-bottom: 10px; }
+
+@media (max-width: 767px) {
+    .sepatah-kata-img-col img { min-height: 200px; max-height: 240px; }
+    .sepatah-kata-text-col { padding: 18px 16px; }
+}
+
 /* Legalitas Perusahaan */
 .legalitas-section { padding: 20px 0 60px; }
 .legalitas-card {
@@ -625,6 +659,47 @@ a { text-decoration: none; color: inherit; }
     .legalitas-inner    { flex-direction: column; align-items: center; }
     .legalitas-items    { padding-bottom: 16px; }
     .legalitas-phone    { flex: 0 0 70%; max-width: 70%; margin-top: 0; }
+    .legalitas-docs img  { margin-bottom: 0; }
+    .legalitas-phone img { margin-bottom: 0; }
+}
+
+/* ==========================================
+   PAGE: MENGENAI KAMI — RESPONSIVE
+   ========================================== */
+
+/* Tablet (md breakdown) */
+@media (max-width: 991px) {
+    .vm-visual     { margin-right: 40px; }
+    .vm-visual-red { margin-left: 40px; }
+    .bidang-text-col { width: auto; }
+    .bidang-img-col  { padding-left: 30px; }
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+    /* Visi & Misi */
+    .vm-block-visi { margin-left: 5%; margin-right: 5%; }
+    .vm-block-misi { margin-left: 5%; margin-right: 5%; }
+    .vm-visual     { margin-right: 0; width: 100%; max-width: 100%; }
+    .vm-visual-red { margin-left: 0; margin-top: 0; width: 100%; max-width: 100%; }
+
+    /* Bidang Usaha */
+    .bidang-usaha-section  { padding-top: 60px; }
+    .bidang-usaha-card     { width: 100%; border-radius: 12px; }
+    .bidang-img-col        { padding-left: 16px; margin-top: 0; }
+    .bidang-text-col       { width: 100%; padding: 20px 16px; }
+    .bidang-text-scroll    { max-height: none; }
+
+    /* Struktur Permodalan */
+    .saham-indent          { margin-left: 0 !important; }
+    .struktur-permodalan   { min-height: auto !important; }
+}
+
+/* Small mobile */
+@media (max-width: 480px) {
+    .vm-block-visi { margin-left: 0; margin-right: 0; }
+    .vm-block-misi { margin-left: 0; margin-right: 0; }
+    .mitra-person-img { max-width: 160px; }
 }
 
 /* ==========================================

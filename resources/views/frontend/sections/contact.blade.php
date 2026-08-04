@@ -37,6 +37,13 @@
                         <p>{{ $setting?->whatsapp ?? '-' }}</p>
                     </div>
                 </div>
+                <div class="contact-info-item">
+                    <div class="icon"><i class="ti ti-phone"></i></div>
+                    <div>
+                        <h6>Telpn</h6>
+                        <p>{{ $setting?->mobile_phone ?? '-' }}</p>
+                    </div>
+                </div>
             </div>
 
             {{-- FORM --}}

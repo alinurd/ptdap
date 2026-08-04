@@ -1,6 +1,5 @@
 @php $set = AppSetting::first(); @endphp
-
-{{-- TOPBAR --}}
+ {{-- TOPBAR --}}
 <div class="topbar py-1 d-none d-md-block">
     <div class="container d-flex justify-content-between align-items-center">
         <div class="d-flex align-items-center gap-4">
@@ -11,7 +10,10 @@
             <span><i class="ti ti-mail me-1"></i>{{ $set->email }}</span>
             @endif
             @if($set?->whatsapp)
-            <span><i class="ti ti-phone me-1"></i>{{ $set->whatsapp }}</span>
+            <span><i class="ti ti-brand-whatsapp me-1"></i>{{ $set->whatsapp }}</span>
+            @endif
+            @if($set?->mobile_phone)
+            <span><i class="ti ti-phone me-1"></i>{{ $set->mobile_phone }}</span>
             @endif
         </div>
         <div class="d-flex align-items-center gap-1">
