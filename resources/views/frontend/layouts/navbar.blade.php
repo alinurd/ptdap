@@ -81,6 +81,14 @@
                     <a class="nav-link {{ request()->routeIs('guest.pengalaman') ? 'active' : '' }}"
                        href="{{ route('guest.pengalaman') }}">Pengalaman</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link {{ request()->routeIs('guest.ruang-unduh') ? 'active' : '' }}"
+                       href="{{ route('guest.ruang-unduh') }}">Ruang Unduh</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link {{ request()->routeIs('guest.karir') || request()->routeIs('guest.karir.detail') ? 'active' : '' }}"
+                       href="{{ route('guest.karir') }}">Karir</a>
+                </li>
 
                 <li class="nav-item">
                     <a class="nav-link {{ request()->routeIs('guest.berita') || request()->routeIs('guest.berita.detail') ? 'active' : '' }}"

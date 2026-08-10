@@ -60,6 +60,23 @@ class AdminMenus
                             ['route' => 'admin.master.berita.index',          'label' => 'Berita',   'icon' => 'icon-be-15.png'],
                         ],
                     ],
+                    [
+                        'title'        => 'Ruang Unduh',
+                        'sidebar_icon' => 'ti ti-folder-down',
+                        'items' => [
+                            ['route' => 'admin.master.ruang-unduh-kategori.index', 'label' => 'Kategori',     'icon' => 'icon-be-16.png'],
+                            ['route' => 'admin.master.ruang-unduh.index',          'label' => 'Ruang Unduh',  'icon' => 'icon-be-27.png'],
+                        ],
+                    ],
+                    [
+                        'title'        => 'Karir',
+                        'sidebar_icon' => 'ti ti-briefcase',
+                        'direct'       => true,
+                        'route'        => 'admin.master.karir.index',
+                        'items' => [
+                            ['route' => 'admin.master.karir.index', 'label' => 'Karir', 'icon' => 'icon-be-06.png'],
+                        ],
+                    ],
                 ],
             ],
 

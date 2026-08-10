@@ -13,6 +13,10 @@ Route::name('guest.')->group(function () {
     Route::get('/pengalaman', [$c, 'pengalaman'])->name('pengalaman');
     Route::get('/berita', [$c, 'berita'])->name('berita');
     Route::get('/berita/{slug}', [$c, 'beritaDetail'])->name('berita.detail');
+    Route::get('/ruang-unduh', [$c, 'ruangUnduh'])->name('ruang-unduh');
+    Route::get('/karir', [$c, 'karir'])->name('karir');
+    Route::get('/karir/{slug}', [$c, 'karirDetail'])->name('karir.detail');
+    Route::post('/karir/{slug}/apply', [$c, 'karirApply'])->name('karir.apply');
     Route::get('/hubungi-kami', [$c, 'hubungiKami'])->name('hubungi-kami');
     Route::post('/hubungi-kami/kirim', [$c, 'sendContact'])->name('contact.send');
         Route::get('/404', [$c, 'errors'])->name('404');

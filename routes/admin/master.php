@@ -13,11 +13,16 @@ use App\Http\Controllers\Admin\Master\FacilityController;
 use App\Http\Controllers\Admin\Master\FacilityCoreController;
 use App\Http\Controllers\Admin\Master\GalleryController;
 use App\Http\Controllers\Admin\Master\IsoController;
+use App\Http\Controllers\Admin\Master\KarirController;
+use App\Http\Controllers\Admin\Master\KarirFormFieldController;
+use App\Http\Controllers\Admin\Master\KarirLamaranController;
 use App\Http\Controllers\Admin\Master\PengalamanController;
 use App\Http\Controllers\Admin\Master\PersonilController;
 use App\Http\Controllers\Admin\Master\LineController;
 use App\Http\Controllers\Admin\Master\PageDetailController;
 use App\Http\Controllers\Admin\Master\ProductController;
+use App\Http\Controllers\Admin\Master\RuangUnduhController;
+use App\Http\Controllers\Admin\Master\RuangUnduhKategoriController;
 use Illuminate\Support\Facades\Route;
 
 // prefix name route = admin.
@@ -208,6 +213,57 @@ Route::prefix('/master')->name('master.')->group(function () {
         Route::get('/delete/{id}', [$localClass, 'delete'])->name('delete');
         Route::get('/multidelete', [$localClass, 'multi_delete'])->name('multi_delete');
         Route::get('/status/{id}', [$localClass, 'editstatus'])->name('status');
+    });
+
+    // ==== ruang-unduh-kategori Routes ====
+    Route::prefix('/ruang-unduh-kategori')->name('ruang-unduh-kategori.')->group(function () {
+        $localClass = RuangUnduhKategoriController::class;
+        Route::get('/', [$localClass, 'index'])->name('index');
+        Route::get('/edit/{id}', [$localClass, 'edit'])->name('edit');
+        Route::post('/submit', [$localClass, 'create'])->name('create');
+        Route::get('/delete/{id}', [$localClass, 'delete'])->name('delete');
+        Route::get('/multidelete', [$localClass, 'multi_delete'])->name('multi_delete');
+        Route::get('/status/{id}', [$localClass, 'editstatus'])->name('status');
+    });
+
+    // ==== ruang-unduh Routes ====
+    Route::prefix('/ruang-unduh')->name('ruang-unduh.')->group(function () {
+        $localClass = RuangUnduhController::class;
+        Route::get('/', [$localClass, 'index'])->name('index');
+        Route::get('/edit/{id}', [$localClass, 'edit'])->name('edit');
+        Route::post('/submit', [$localClass, 'create'])->name('create');
+        Route::get('/delete/{id}', [$localClass, 'delete'])->name('delete');
+        Route::get('/multidelete', [$localClass, 'multi_delete'])->name('multi_delete');
+        Route::get('/status/{id}', [$localClass, 'editstatus'])->name('status');
+    });
+
+    // ==== karir Routes ====
+    Route::prefix('/karir')->name('karir.')->group(function () {
+        $localClass = KarirController::class;
+        Route::get('/', [$localClass, 'index'])->name('index');
+        Route::get('/edit/{id}', [$localClass, 'edit'])->name('edit');
+        Route::post('/submit', [$localClass, 'create'])->name('create');
+        Route::get('/delete/{id}', [$localClass, 'delete'])->name('delete');
+        Route::get('/multidelete', [$localClass, 'multi_delete'])->name('multi_delete');
+        Route::get('/status/{id}', [$localClass, 'editstatus'])->name('status');
+    });
+
+    // ==== karir form-builder Routes ====
+    Route::prefix('/karir/{karir}/fields')->name('karir.fields.')->group(function () {
+        $localClass = KarirFormFieldController::class;
+        Route::get('/', [$localClass, 'index'])->name('index');
+        Route::get('/edit/{id}', [$localClass, 'edit'])->name('edit');
+        Route::post('/submit', [$localClass, 'create'])->name('create');
+        Route::get('/delete/{id}', [$localClass, 'delete'])->name('delete');
+        Route::get('/multidelete', [$localClass, 'multi_delete'])->name('multi_delete');
+    });
+
+    // ==== karir pelamar Routes ====
+    Route::prefix('/karir/{karir}/lamaran')->name('karir.lamaran.')->group(function () {
+        $localClass = KarirLamaranController::class;
+        Route::get('/', [$localClass, 'index'])->name('index');
+        Route::get('/show/{id}', [$localClass, 'show'])->name('show');
+        Route::get('/delete/{id}', [$localClass, 'delete'])->name('delete');
     });
 
     // ==== berita-kategori Routes ====
