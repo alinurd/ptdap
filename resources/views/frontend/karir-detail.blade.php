@@ -1,9 +1,10 @@
 @extends('frontend.layouts.app')
 @section('content')
 
+
 <div class="page-hero">
-    @if($karir->image)
-    <img src="{{ asset($karir->image) }}" alt="{{ $karir->judul }}">
+    @if($banner?->image)
+    <img src="{{ asset($banner->image) }}" alt="Karir">
     @else
     <div class="w-100 h-100" style="background: linear-gradient(135deg,#003d79,#005bb5);"></div>
     @endif
@@ -43,6 +44,13 @@
             </div>
 
             <div class="col-lg-5">
+                @if($karir->image)
+                <div class="karir-detail-image">
+                    <img src="{{ asset($karir->image) }}" alt="{{ $karir->judul }}" class="img-fluid rounded">
+                </div>
+                @endif
+
+                @if($showApplyForm)
                 <div class="karir-apply-box">
                     <h5 class="fw-bold mb-3" style="color:var(--navy,#003d79);">Formulir Lamaran</h5>
                     <form id="applyForm" enctype="multipart/form-data">
@@ -84,6 +92,7 @@
                         <button type="submit" id="applySubmit" class="btn-karir-apply w-100 border-0">Kirim Lamaran</button>
                     </form>
                 </div>
+                @endif
             </div>
         </div>
     </div>
@@ -107,6 +116,10 @@
     border-radius: 10px;
     padding: 24px;
 }
+.karir-detail-image img {
+    width: 100%;
+    border-radius: 10px;
+}
 .btn-karir-apply {
     display: inline-block;
     text-align: center;
@@ -126,7 +139,7 @@
 
 @section('scripts')
 <script>
-document.getElementById('applyForm').addEventListener('submit', async function(e) {
+document.getElementById('applyForm')?.addEventListener('submit', async function(e) {
     e.preventDefault();
     const btn = document.getElementById('applySubmit');
     btn.disabled = true;

@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\MailController;
+use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -31,4 +32,14 @@ Route::post('send_email',[MailController::class,'index'])->name('sendMail');
 
 Route::group(['prefix' => 'filemanager', 'middleware' => ['web', 'auth', 'role:admin']], function () {
     \UniSharp\LaravelFilemanager\Lfm::routes();
+});
+
+// TEMP: hapus route ini setelah selesai dipakai untuk clear cache di server
+Route::get('/clear-cache-temp-xyz', function () {
+    Artisan::call('view:clear');
+    Artisan::call('cache:clear');
+    Artisan::call('config:clear');
+    Artisan::call('route:clear');
+
+    return '<pre>' . Artisan::output() . '</pre>';
 });

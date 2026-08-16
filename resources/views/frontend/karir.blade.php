@@ -66,7 +66,7 @@
     flex-direction: column;
 }
 .karir-card:hover { transform: translateY(-4px); }
-.karir-card img { width: 100%; height: 200px; object-fit: cover; }
+.karir-card img { width: 100%;  }
 .karir-card-body { padding: 18px; display: flex; flex-direction: column; flex: 1; }
 .karir-card-body h5 { font-size: 17px; font-weight: 700; color: var(--navy, #003d79); margin-bottom: 6px; }
 .karir-card-body .meta { font-size: 12px; color: #999; margin-bottom: 8px; }

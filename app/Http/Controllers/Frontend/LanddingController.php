@@ -144,7 +144,7 @@ class LanddingController extends Controller
     {
         return view('frontend.karir', [
             'setting' => $this->setting(),
-            'banner'  => $this->halamanBanner('karir'),
+            'banner'  => $this->halamanBanner('lowongan_pekerjaan'),
             'items'   => Karir::where('status', 1)->orderBy('sort')->paginate(9),
         ]);
     }
@@ -152,7 +152,9 @@ class LanddingController extends Controller
     public function karirDetail($slug)
     {
         return view('frontend.karir-detail', [
+            'showApplyForm' => false,
             'setting' => $this->setting(),
+            'banner'  => $this->halamanBanner('lowongan_pekerjaan'),
             'karir'   => Karir::with('formFields')->where('slug', $slug)->where('status', 1)->firstOrFail(),
         ]);
     }
