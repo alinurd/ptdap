@@ -19,7 +19,9 @@ use App\Models\Master\Pengalaman;
 use App\Models\Master\Personil;
 use App\Models\Master\RuangUnduh;
 use App\Models\Master\RuangUnduhKategori;
+use App\Mail\gmailMail;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 
 class LanddingController extends Controller
 {
@@ -230,6 +232,23 @@ class LanddingController extends Controller
             'pesan'   => 'required|string|min:10',
         ]);
 
-        return response()->json(['status' => 'error', 'message' => 'Pesan berhasil dikirim. Tim kami akan segera menghubungi Anda.']);
+        $adminEmail = $this->setting()->email ?? null;
+
+        if (!$adminEmail) {
+            return response()->json(['status' => 'error', 'message' => 'Email tujuan belum dikonfigurasi.'], 422);
+        }
+
+        $details = [
+            'email'   => $request->email,
+            'name'    => $request->nama,
+            'subject' => $request->subjek,
+            'title'   => 'Hubungi Kami',
+            'body'    => $request->pesan,
+        ];
+
+       $x= Mail::to($adminEmail)->send(new gmailMail($details));
+
+    //    dd($x);
+        return response()->json(['status' => 'success', 'message' => 'Pesan berhasil dikirim. Tim kami akan segera menghubungi Anda.']);
     }
 }
